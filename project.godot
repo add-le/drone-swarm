@@ -21,6 +21,7 @@ _global_script_class_icons={
 [application]
 
 config/name="ProjetSMA"
+run/main_scene="res://ScenePrincipale.tscn"
 config/icon="res://icon.png"
 
 [editor_plugins]
@@ -33,6 +34,5 @@ singletons=[ "res://addons/godot-git-plugin/git_api.gdnlib" ]
 
 [rendering]
 
-quality/driver/driver_name="GLES2"
 vram_compression/import_etc=true
 vram_compression/import_etc2=false
