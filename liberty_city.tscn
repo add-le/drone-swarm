@@ -2736,6 +2736,9 @@ shape = SubResource( 186 )
 [node name="CollisionShape" type="CollisionShape" parent="Cube189/Cube189_col" index="0"]
 shape = SubResource( 187 )
 
+[node name="Cube190" parent="." index="187"]
+visible = false
+
 [node name="Cube190_col" type="StaticBody" parent="Cube190" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube190/Cube190_col" index="0"]
@@ -2795,6 +2798,9 @@ shape = SubResource( 198 )
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube201/Cube201_col" index="0"]
 shape = SubResource( 199 )
+
+[node name="Cube202" parent="." index="199"]
+visible = false
 
 [node name="Cube202_col" type="StaticBody" parent="Cube202" index="0"]
 
@@ -3939,6 +3945,9 @@ shape = SubResource( 426 )
 [node name="CollisionShape" type="CollisionShape" parent="Cube433/Cube433_col" index="0"]
 shape = SubResource( 427 )
 
+[node name="Cube434" parent="." index="427"]
+visible = false
+
 [node name="Cube434_col" type="StaticBody" parent="Cube434" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube434/Cube434_col" index="0"]
@@ -4099,6 +4108,9 @@ shape = SubResource( 458 )
 [node name="CollisionShape" type="CollisionShape" parent="Cube468/Cube468_col" index="0"]
 shape = SubResource( 459 )
 
+[node name="Cube469" parent="." index="459"]
+visible = false
+
 [node name="Cube469_col" type="StaticBody" parent="Cube469" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube469/Cube469_col" index="0"]
@@ -4178,6 +4190,9 @@ shape = SubResource( 474 )
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube484/Cube484_col" index="0"]
 shape = SubResource( 475 )
+
+[node name="Cube485" parent="." index="475"]
+visible = false
 
 [node name="Cube485_col" type="StaticBody" parent="Cube485" index="0"]
 

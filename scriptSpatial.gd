@@ -1,6 +1,6 @@
 extends Spatial
 
-var droneObject = preload("res://Drone.tscn");
+var droneObject = preload("res://Drone/untitled.tscn");
 var drone:KinematicBody = null;
 var drone2:KinematicBody = null;
 var drone3:KinematicBody = null;
