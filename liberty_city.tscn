@@ -1801,3160 +1801,1975 @@ points = PoolVector3Array( -1, -2.00732, 0.708692, -1, -2.00732, 1, -1, -1.00027
 
 [node name="liberty_city" instance=ExtResource( 1 )]
 
-[node name="Cube" parent="." index="0"]
-material/0 = null
-
 [node name="Cube_col" type="StaticBody" parent="Cube" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube/Cube_col" index="0"]
 shape = SubResource( 1 )
-
-[node name="Cube001" parent="." index="1"]
-material/0 = null
 
 [node name="Cube001_col" type="StaticBody" parent="Cube001" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube001/Cube001_col" index="0"]
 shape = SubResource( 2 )
 
-[node name="Cube002" parent="." index="2"]
-material/0 = null
-
 [node name="Cube002_col" type="StaticBody" parent="Cube002" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube002/Cube002_col" index="0"]
 shape = SubResource( 3 )
-
-[node name="Cube003" parent="." index="3"]
-material/0 = null
 
 [node name="Cube003_col" type="StaticBody" parent="Cube003" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube003/Cube003_col" index="0"]
 shape = SubResource( 4 )
 
-[node name="Cube004" parent="." index="4"]
-material/0 = null
-
 [node name="Cube004_col" type="StaticBody" parent="Cube004" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube004/Cube004_col" index="0"]
 shape = SubResource( 5 )
-
-[node name="Cube005" parent="." index="5"]
-material/0 = null
 
 [node name="Cube005_col" type="StaticBody" parent="Cube005" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube005/Cube005_col" index="0"]
 shape = SubResource( 6 )
 
-[node name="Cube006" parent="." index="6"]
-material/0 = null
-
 [node name="Cube006_col" type="StaticBody" parent="Cube006" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube006/Cube006_col" index="0"]
 shape = SubResource( 7 )
-
-[node name="Cube007" parent="." index="7"]
-material/0 = null
 
 [node name="Cube007_col" type="StaticBody" parent="Cube007" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube007/Cube007_col" index="0"]
 shape = SubResource( 8 )
 
-[node name="Cube008" parent="." index="8"]
-material/0 = null
-
 [node name="Cube008_col" type="StaticBody" parent="Cube008" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube008/Cube008_col" index="0"]
 shape = SubResource( 9 )
-
-[node name="Cube009" parent="." index="9"]
-material/0 = null
 
 [node name="Cube009_col" type="StaticBody" parent="Cube009" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube009/Cube009_col" index="0"]
 shape = SubResource( 10 )
 
-[node name="Cube010" parent="." index="10"]
-material/0 = null
-
 [node name="Cube010_col" type="StaticBody" parent="Cube010" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube010/Cube010_col" index="0"]
 shape = SubResource( 11 )
-
-[node name="Cube011" parent="." index="11"]
-material/0 = null
 
 [node name="Cube011_col" type="StaticBody" parent="Cube011" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube011/Cube011_col" index="0"]
 shape = SubResource( 12 )
 
-[node name="Cube012" parent="." index="12"]
-material/0 = null
-
 [node name="Cube012_col" type="StaticBody" parent="Cube012" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube012/Cube012_col" index="0"]
 shape = SubResource( 13 )
-
-[node name="Cube013" parent="." index="13"]
-material/0 = null
 
 [node name="Cube013_col" type="StaticBody" parent="Cube013" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube013/Cube013_col" index="0"]
 shape = SubResource( 14 )
 
-[node name="Cube014" parent="." index="14"]
-material/0 = null
-
 [node name="Cube014_col" type="StaticBody" parent="Cube014" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube014/Cube014_col" index="0"]
 shape = SubResource( 15 )
-
-[node name="Cube015" parent="." index="15"]
-material/0 = null
 
 [node name="Cube015_col" type="StaticBody" parent="Cube015" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube015/Cube015_col" index="0"]
 shape = SubResource( 16 )
 
-[node name="Cube016" parent="." index="16"]
-material/0 = null
-
 [node name="Cube016_col" type="StaticBody" parent="Cube016" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube016/Cube016_col" index="0"]
 shape = SubResource( 17 )
-
-[node name="Cube017" parent="." index="17"]
-material/0 = null
 
 [node name="Cube017_col" type="StaticBody" parent="Cube017" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube017/Cube017_col" index="0"]
 shape = SubResource( 18 )
 
-[node name="Cube018" parent="." index="18"]
-material/0 = null
-
 [node name="Cube018_col" type="StaticBody" parent="Cube018" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube018/Cube018_col" index="0"]
 shape = SubResource( 19 )
-
-[node name="Cube019" parent="." index="19"]
-material/0 = null
 
 [node name="Cube019_col" type="StaticBody" parent="Cube019" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube019/Cube019_col" index="0"]
 shape = SubResource( 20 )
 
-[node name="Cube020" parent="." index="20"]
-material/0 = null
-
 [node name="Cube020_col" type="StaticBody" parent="Cube020" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube020/Cube020_col" index="0"]
 shape = SubResource( 21 )
-
-[node name="Cube021" parent="." index="21"]
-material/0 = null
 
 [node name="Cube021_col" type="StaticBody" parent="Cube021" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube021/Cube021_col" index="0"]
 shape = SubResource( 22 )
 
-[node name="Cube022" parent="." index="22"]
-material/0 = null
-
 [node name="Cube022_col" type="StaticBody" parent="Cube022" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube022/Cube022_col" index="0"]
 shape = SubResource( 23 )
-
-[node name="Cube023" parent="." index="23"]
-material/0 = null
 
 [node name="Cube023_col" type="StaticBody" parent="Cube023" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube023/Cube023_col" index="0"]
 shape = SubResource( 24 )
 
-[node name="Cube025" parent="." index="24"]
-material/0 = null
-
 [node name="Cube025_col" type="StaticBody" parent="Cube025" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube025/Cube025_col" index="0"]
 shape = SubResource( 25 )
-
-[node name="Cube026" parent="." index="25"]
-material/0 = null
 
 [node name="Cube026_col" type="StaticBody" parent="Cube026" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube026/Cube026_col" index="0"]
 shape = SubResource( 26 )
 
-[node name="Cube027" parent="." index="26"]
-material/0 = null
-
 [node name="Cube027_col" type="StaticBody" parent="Cube027" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube027/Cube027_col" index="0"]
 shape = SubResource( 27 )
-
-[node name="Cube028" parent="." index="27"]
-material/0 = null
 
 [node name="Cube028_col" type="StaticBody" parent="Cube028" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube028/Cube028_col" index="0"]
 shape = SubResource( 28 )
 
-[node name="Cube029" parent="." index="28"]
-material/0 = null
-
 [node name="Cube029_col" type="StaticBody" parent="Cube029" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube029/Cube029_col" index="0"]
 shape = SubResource( 29 )
-
-[node name="Cube031" parent="." index="29"]
-material/0 = null
 
 [node name="Cube031_col" type="StaticBody" parent="Cube031" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube031/Cube031_col" index="0"]
 shape = SubResource( 30 )
 
-[node name="Cube033" parent="." index="30"]
-material/0 = null
-
 [node name="Cube033_col" type="StaticBody" parent="Cube033" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube033/Cube033_col" index="0"]
 shape = SubResource( 31 )
-
-[node name="Cube034" parent="." index="31"]
-material/0 = null
 
 [node name="Cube034_col" type="StaticBody" parent="Cube034" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube034/Cube034_col" index="0"]
 shape = SubResource( 32 )
 
-[node name="Cube036" parent="." index="32"]
-material/0 = null
-
 [node name="Cube036_col" type="StaticBody" parent="Cube036" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube036/Cube036_col" index="0"]
 shape = SubResource( 33 )
-
-[node name="Cube037" parent="." index="33"]
-material/0 = null
 
 [node name="Cube037_col" type="StaticBody" parent="Cube037" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube037/Cube037_col" index="0"]
 shape = SubResource( 34 )
 
-[node name="Cube038" parent="." index="34"]
-material/0 = null
-
 [node name="Cube038_col" type="StaticBody" parent="Cube038" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube038/Cube038_col" index="0"]
 shape = SubResource( 35 )
-
-[node name="Cube039" parent="." index="35"]
-material/0 = null
 
 [node name="Cube039_col" type="StaticBody" parent="Cube039" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube039/Cube039_col" index="0"]
 shape = SubResource( 36 )
 
-[node name="Cube043" parent="." index="36"]
-material/0 = null
-
 [node name="Cube043_col" type="StaticBody" parent="Cube043" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube043/Cube043_col" index="0"]
 shape = SubResource( 37 )
-
-[node name="Cube044" parent="." index="37"]
-material/0 = null
 
 [node name="Cube044_col" type="StaticBody" parent="Cube044" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube044/Cube044_col" index="0"]
 shape = SubResource( 38 )
 
-[node name="Cube024" parent="." index="38"]
-material/0 = null
-
 [node name="Cube024_col" type="StaticBody" parent="Cube024" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube024/Cube024_col" index="0"]
 shape = SubResource( 39 )
-
-[node name="Cube030" parent="." index="39"]
-material/0 = null
 
 [node name="Cube030_col" type="StaticBody" parent="Cube030" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube030/Cube030_col" index="0"]
 shape = SubResource( 40 )
 
-[node name="Cube032" parent="." index="40"]
-material/0 = null
-
 [node name="Cube032_col" type="StaticBody" parent="Cube032" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube032/Cube032_col" index="0"]
 shape = SubResource( 41 )
-
-[node name="Cube040" parent="." index="41"]
-material/0 = null
 
 [node name="Cube040_col" type="StaticBody" parent="Cube040" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube040/Cube040_col" index="0"]
 shape = SubResource( 42 )
 
-[node name="Cube041" parent="." index="42"]
-material/0 = null
-
 [node name="Cube041_col" type="StaticBody" parent="Cube041" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube041/Cube041_col" index="0"]
 shape = SubResource( 43 )
-
-[node name="Cube045" parent="." index="43"]
-material/0 = null
 
 [node name="Cube045_col" type="StaticBody" parent="Cube045" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube045/Cube045_col" index="0"]
 shape = SubResource( 44 )
 
-[node name="Cube046" parent="." index="44"]
-material/0 = null
-
 [node name="Cube046_col" type="StaticBody" parent="Cube046" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube046/Cube046_col" index="0"]
 shape = SubResource( 45 )
-
-[node name="Cube047" parent="." index="45"]
-material/0 = null
 
 [node name="Cube047_col" type="StaticBody" parent="Cube047" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube047/Cube047_col" index="0"]
 shape = SubResource( 46 )
 
-[node name="Cube048" parent="." index="46"]
-material/0 = null
-
 [node name="Cube048_col" type="StaticBody" parent="Cube048" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube048/Cube048_col" index="0"]
 shape = SubResource( 47 )
-
-[node name="Cube049" parent="." index="47"]
-material/0 = null
 
 [node name="Cube049_col" type="StaticBody" parent="Cube049" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube049/Cube049_col" index="0"]
 shape = SubResource( 48 )
 
-[node name="Cube050" parent="." index="48"]
-material/0 = null
-
 [node name="Cube050_col" type="StaticBody" parent="Cube050" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube050/Cube050_col" index="0"]
 shape = SubResource( 49 )
-
-[node name="Cube051" parent="." index="49"]
-material/0 = null
 
 [node name="Cube051_col" type="StaticBody" parent="Cube051" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube051/Cube051_col" index="0"]
 shape = SubResource( 50 )
 
-[node name="Cube052" parent="." index="50"]
-material/0 = null
-
 [node name="Cube052_col" type="StaticBody" parent="Cube052" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube052/Cube052_col" index="0"]
 shape = SubResource( 51 )
-
-[node name="Cube053" parent="." index="51"]
-material/0 = null
 
 [node name="Cube053_col" type="StaticBody" parent="Cube053" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube053/Cube053_col" index="0"]
 shape = SubResource( 52 )
 
-[node name="Cube054" parent="." index="52"]
-material/0 = null
-
 [node name="Cube054_col" type="StaticBody" parent="Cube054" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube054/Cube054_col" index="0"]
 shape = SubResource( 53 )
-
-[node name="Cube056" parent="." index="53"]
-material/0 = null
 
 [node name="Cube056_col" type="StaticBody" parent="Cube056" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube056/Cube056_col" index="0"]
 shape = SubResource( 54 )
 
-[node name="Cube057" parent="." index="54"]
-material/0 = null
-
 [node name="Cube057_col" type="StaticBody" parent="Cube057" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube057/Cube057_col" index="0"]
 shape = SubResource( 55 )
-
-[node name="Cube058" parent="." index="55"]
-material/0 = null
 
 [node name="Cube058_col" type="StaticBody" parent="Cube058" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube058/Cube058_col" index="0"]
 shape = SubResource( 56 )
 
-[node name="Cube059" parent="." index="56"]
-material/0 = null
-
 [node name="Cube059_col" type="StaticBody" parent="Cube059" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube059/Cube059_col" index="0"]
 shape = SubResource( 57 )
-
-[node name="Cube060" parent="." index="57"]
-material/0 = null
 
 [node name="Cube060_col" type="StaticBody" parent="Cube060" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube060/Cube060_col" index="0"]
 shape = SubResource( 58 )
 
-[node name="Cube061" parent="." index="58"]
-material/0 = null
-
 [node name="Cube061_col" type="StaticBody" parent="Cube061" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube061/Cube061_col" index="0"]
 shape = SubResource( 59 )
-
-[node name="Cube062" parent="." index="59"]
-material/0 = null
 
 [node name="Cube062_col" type="StaticBody" parent="Cube062" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube062/Cube062_col" index="0"]
 shape = SubResource( 60 )
 
-[node name="Cube063" parent="." index="60"]
-material/0 = null
-
 [node name="Cube063_col" type="StaticBody" parent="Cube063" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube063/Cube063_col" index="0"]
 shape = SubResource( 61 )
-
-[node name="Cube064" parent="." index="61"]
-material/0 = null
 
 [node name="Cube064_col" type="StaticBody" parent="Cube064" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube064/Cube064_col" index="0"]
 shape = SubResource( 62 )
 
-[node name="Cube065" parent="." index="62"]
-material/0 = null
-
 [node name="Cube065_col" type="StaticBody" parent="Cube065" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube065/Cube065_col" index="0"]
 shape = SubResource( 63 )
-
-[node name="Cube066" parent="." index="63"]
-material/0 = null
 
 [node name="Cube066_col" type="StaticBody" parent="Cube066" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube066/Cube066_col" index="0"]
 shape = SubResource( 64 )
 
-[node name="Cube067" parent="." index="64"]
-material/0 = null
-
 [node name="Cube067_col" type="StaticBody" parent="Cube067" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube067/Cube067_col" index="0"]
 shape = SubResource( 65 )
-
-[node name="Cube068" parent="." index="65"]
-material/0 = null
 
 [node name="Cube068_col" type="StaticBody" parent="Cube068" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube068/Cube068_col" index="0"]
 shape = SubResource( 66 )
 
-[node name="Cube069" parent="." index="66"]
-material/0 = null
-
 [node name="Cube069_col" type="StaticBody" parent="Cube069" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube069/Cube069_col" index="0"]
 shape = SubResource( 67 )
-
-[node name="Cube070" parent="." index="67"]
-material/0 = null
 
 [node name="Cube070_col" type="StaticBody" parent="Cube070" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube070/Cube070_col" index="0"]
 shape = SubResource( 68 )
 
-[node name="Cube071" parent="." index="68"]
-material/0 = null
-
 [node name="Cube071_col" type="StaticBody" parent="Cube071" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube071/Cube071_col" index="0"]
 shape = SubResource( 69 )
-
-[node name="Cube073" parent="." index="69"]
-material/0 = null
 
 [node name="Cube073_col" type="StaticBody" parent="Cube073" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube073/Cube073_col" index="0"]
 shape = SubResource( 70 )
 
-[node name="Cube075" parent="." index="70"]
-material/0 = null
-
 [node name="Cube075_col" type="StaticBody" parent="Cube075" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube075/Cube075_col" index="0"]
 shape = SubResource( 71 )
-
-[node name="Cube076" parent="." index="71"]
-material/0 = null
 
 [node name="Cube076_col" type="StaticBody" parent="Cube076" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube076/Cube076_col" index="0"]
 shape = SubResource( 72 )
 
-[node name="Cube077" parent="." index="72"]
-material/0 = null
-
 [node name="Cube077_col" type="StaticBody" parent="Cube077" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube077/Cube077_col" index="0"]
 shape = SubResource( 73 )
-
-[node name="Cube078" parent="." index="73"]
-material/0 = null
 
 [node name="Cube078_col" type="StaticBody" parent="Cube078" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube078/Cube078_col" index="0"]
 shape = SubResource( 74 )
 
-[node name="Cube079" parent="." index="74"]
-material/0 = null
-
 [node name="Cube079_col" type="StaticBody" parent="Cube079" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube079/Cube079_col" index="0"]
 shape = SubResource( 75 )
-
-[node name="Cube080" parent="." index="75"]
-material/0 = null
 
 [node name="Cube080_col" type="StaticBody" parent="Cube080" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube080/Cube080_col" index="0"]
 shape = SubResource( 76 )
 
-[node name="Cube081" parent="." index="76"]
-material/0 = null
-
 [node name="Cube081_col" type="StaticBody" parent="Cube081" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube081/Cube081_col" index="0"]
 shape = SubResource( 77 )
-
-[node name="Cube082" parent="." index="77"]
-material/0 = null
 
 [node name="Cube082_col" type="StaticBody" parent="Cube082" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube082/Cube082_col" index="0"]
 shape = SubResource( 78 )
 
-[node name="Cube083" parent="." index="78"]
-material/0 = null
-
 [node name="Cube083_col" type="StaticBody" parent="Cube083" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube083/Cube083_col" index="0"]
 shape = SubResource( 79 )
-
-[node name="Cube084" parent="." index="79"]
-material/0 = null
 
 [node name="Cube084_col" type="StaticBody" parent="Cube084" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube084/Cube084_col" index="0"]
 shape = SubResource( 80 )
 
-[node name="Cube085" parent="." index="80"]
-material/0 = null
-
 [node name="Cube085_col" type="StaticBody" parent="Cube085" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube085/Cube085_col" index="0"]
 shape = SubResource( 81 )
-
-[node name="Cube086" parent="." index="81"]
-material/0 = null
 
 [node name="Cube086_col" type="StaticBody" parent="Cube086" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube086/Cube086_col" index="0"]
 shape = SubResource( 82 )
 
-[node name="Cube087" parent="." index="82"]
-material/0 = null
-
 [node name="Cube087_col" type="StaticBody" parent="Cube087" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube087/Cube087_col" index="0"]
 shape = SubResource( 83 )
-
-[node name="Cube088" parent="." index="83"]
-material/0 = null
 
 [node name="Cube088_col" type="StaticBody" parent="Cube088" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube088/Cube088_col" index="0"]
 shape = SubResource( 84 )
 
-[node name="Cube089" parent="." index="84"]
-material/0 = null
-
 [node name="Cube089_col" type="StaticBody" parent="Cube089" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube089/Cube089_col" index="0"]
 shape = SubResource( 85 )
-
-[node name="Cube090" parent="." index="85"]
-material/0 = null
 
 [node name="Cube090_col" type="StaticBody" parent="Cube090" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube090/Cube090_col" index="0"]
 shape = SubResource( 86 )
 
-[node name="Cube091" parent="." index="86"]
-material/0 = null
-
 [node name="Cube091_col" type="StaticBody" parent="Cube091" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube091/Cube091_col" index="0"]
 shape = SubResource( 87 )
-
-[node name="Cube092" parent="." index="87"]
-material/0 = null
 
 [node name="Cube092_col" type="StaticBody" parent="Cube092" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube092/Cube092_col" index="0"]
 shape = SubResource( 88 )
 
-[node name="Cube093" parent="." index="88"]
-material/0 = null
-
 [node name="Cube093_col" type="StaticBody" parent="Cube093" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube093/Cube093_col" index="0"]
 shape = SubResource( 89 )
-
-[node name="Cube095" parent="." index="89"]
-material/0 = null
 
 [node name="Cube095_col" type="StaticBody" parent="Cube095" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube095/Cube095_col" index="0"]
 shape = SubResource( 90 )
 
-[node name="Cube096" parent="." index="90"]
-material/0 = null
-
 [node name="Cube096_col" type="StaticBody" parent="Cube096" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube096/Cube096_col" index="0"]
 shape = SubResource( 91 )
-
-[node name="Cube097" parent="." index="91"]
-material/0 = null
 
 [node name="Cube097_col" type="StaticBody" parent="Cube097" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube097/Cube097_col" index="0"]
 shape = SubResource( 92 )
 
-[node name="Cube098" parent="." index="92"]
-material/0 = null
-
 [node name="Cube098_col" type="StaticBody" parent="Cube098" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube098/Cube098_col" index="0"]
 shape = SubResource( 93 )
-
-[node name="Cube099" parent="." index="93"]
-material/0 = null
 
 [node name="Cube099_col" type="StaticBody" parent="Cube099" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube099/Cube099_col" index="0"]
 shape = SubResource( 94 )
 
-[node name="Cube100" parent="." index="94"]
-material/0 = null
-
 [node name="Cube100_col" type="StaticBody" parent="Cube100" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube100/Cube100_col" index="0"]
 shape = SubResource( 95 )
-
-[node name="Cube101" parent="." index="95"]
-material/0 = null
 
 [node name="Cube101_col" type="StaticBody" parent="Cube101" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube101/Cube101_col" index="0"]
 shape = SubResource( 96 )
 
-[node name="Cube102" parent="." index="96"]
-material/0 = null
-
 [node name="Cube102_col" type="StaticBody" parent="Cube102" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube102/Cube102_col" index="0"]
 shape = SubResource( 97 )
-
-[node name="Cube103" parent="." index="97"]
-material/0 = null
 
 [node name="Cube103_col" type="StaticBody" parent="Cube103" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube103/Cube103_col" index="0"]
 shape = SubResource( 98 )
 
-[node name="Cube105" parent="." index="98"]
-material/0 = null
-
 [node name="Cube105_col" type="StaticBody" parent="Cube105" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube105/Cube105_col" index="0"]
 shape = SubResource( 99 )
-
-[node name="Cube106" parent="." index="99"]
-material/0 = null
 
 [node name="Cube106_col" type="StaticBody" parent="Cube106" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube106/Cube106_col" index="0"]
 shape = SubResource( 100 )
 
-[node name="Cube107" parent="." index="100"]
-material/0 = null
-
 [node name="Cube107_col" type="StaticBody" parent="Cube107" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube107/Cube107_col" index="0"]
 shape = SubResource( 101 )
-
-[node name="Cube108" parent="." index="101"]
-material/0 = null
 
 [node name="Cube108_col" type="StaticBody" parent="Cube108" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube108/Cube108_col" index="0"]
 shape = SubResource( 102 )
 
-[node name="Cube109" parent="." index="102"]
-material/0 = null
-
 [node name="Cube109_col" type="StaticBody" parent="Cube109" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube109/Cube109_col" index="0"]
 shape = SubResource( 103 )
-
-[node name="Cube110" parent="." index="103"]
-material/0 = null
 
 [node name="Cube110_col" type="StaticBody" parent="Cube110" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube110/Cube110_col" index="0"]
 shape = SubResource( 104 )
 
-[node name="Cube111" parent="." index="104"]
-material/0 = null
-
 [node name="Cube111_col" type="StaticBody" parent="Cube111" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube111/Cube111_col" index="0"]
 shape = SubResource( 105 )
-
-[node name="Cube112" parent="." index="105"]
-material/0 = null
 
 [node name="Cube112_col" type="StaticBody" parent="Cube112" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube112/Cube112_col" index="0"]
 shape = SubResource( 106 )
 
-[node name="Cube113" parent="." index="106"]
-material/0 = null
-
 [node name="Cube113_col" type="StaticBody" parent="Cube113" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube113/Cube113_col" index="0"]
 shape = SubResource( 107 )
-
-[node name="Cube114" parent="." index="107"]
-material/0 = null
 
 [node name="Cube114_col" type="StaticBody" parent="Cube114" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube114/Cube114_col" index="0"]
 shape = SubResource( 108 )
 
-[node name="Cube115" parent="." index="108"]
-material/0 = null
-
 [node name="Cube115_col" type="StaticBody" parent="Cube115" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube115/Cube115_col" index="0"]
 shape = SubResource( 109 )
-
-[node name="Cube116" parent="." index="109"]
-material/0 = null
 
 [node name="Cube116_col" type="StaticBody" parent="Cube116" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube116/Cube116_col" index="0"]
 shape = SubResource( 110 )
 
-[node name="Cube117" parent="." index="110"]
-material/0 = null
-
 [node name="Cube117_col" type="StaticBody" parent="Cube117" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube117/Cube117_col" index="0"]
 shape = SubResource( 111 )
-
-[node name="Cube118" parent="." index="111"]
-material/0 = null
 
 [node name="Cube118_col" type="StaticBody" parent="Cube118" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube118/Cube118_col" index="0"]
 shape = SubResource( 112 )
 
-[node name="Cube119" parent="." index="112"]
-material/0 = null
-
 [node name="Cube119_col" type="StaticBody" parent="Cube119" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube119/Cube119_col" index="0"]
 shape = SubResource( 113 )
-
-[node name="Cube120" parent="." index="113"]
-material/0 = null
 
 [node name="Cube120_col" type="StaticBody" parent="Cube120" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube120/Cube120_col" index="0"]
 shape = SubResource( 114 )
 
-[node name="Cube121" parent="." index="114"]
-material/0 = null
-
 [node name="Cube121_col" type="StaticBody" parent="Cube121" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube121/Cube121_col" index="0"]
 shape = SubResource( 115 )
-
-[node name="Cube122" parent="." index="115"]
-material/0 = null
 
 [node name="Cube122_col" type="StaticBody" parent="Cube122" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube122/Cube122_col" index="0"]
 shape = SubResource( 116 )
 
-[node name="Cube123" parent="." index="116"]
-material/0 = null
-
 [node name="Cube123_col" type="StaticBody" parent="Cube123" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube123/Cube123_col" index="0"]
 shape = SubResource( 117 )
-
-[node name="Cube124" parent="." index="117"]
-material/0 = null
 
 [node name="Cube124_col" type="StaticBody" parent="Cube124" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube124/Cube124_col" index="0"]
 shape = SubResource( 118 )
 
-[node name="Cube125" parent="." index="118"]
-material/0 = null
-
 [node name="Cube125_col" type="StaticBody" parent="Cube125" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube125/Cube125_col" index="0"]
 shape = SubResource( 119 )
-
-[node name="Cube126" parent="." index="119"]
-material/0 = null
 
 [node name="Cube126_col" type="StaticBody" parent="Cube126" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube126/Cube126_col" index="0"]
 shape = SubResource( 120 )
 
-[node name="Cube127" parent="." index="120"]
-material/0 = null
-
 [node name="Cube127_col" type="StaticBody" parent="Cube127" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube127/Cube127_col" index="0"]
 shape = SubResource( 121 )
-
-[node name="Cube128" parent="." index="121"]
-material/0 = null
 
 [node name="Cube128_col" type="StaticBody" parent="Cube128" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube128/Cube128_col" index="0"]
 shape = SubResource( 122 )
 
-[node name="Cube129" parent="." index="122"]
-material/0 = null
-
 [node name="Cube129_col" type="StaticBody" parent="Cube129" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube129/Cube129_col" index="0"]
 shape = SubResource( 123 )
-
-[node name="Cube130" parent="." index="123"]
-material/0 = null
 
 [node name="Cube130_col" type="StaticBody" parent="Cube130" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube130/Cube130_col" index="0"]
 shape = SubResource( 124 )
 
-[node name="Cube131" parent="." index="124"]
-material/0 = null
-
 [node name="Cube131_col" type="StaticBody" parent="Cube131" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube131/Cube131_col" index="0"]
 shape = SubResource( 125 )
-
-[node name="Cube132" parent="." index="125"]
-material/0 = null
 
 [node name="Cube132_col" type="StaticBody" parent="Cube132" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube132/Cube132_col" index="0"]
 shape = SubResource( 126 )
 
-[node name="Cube133" parent="." index="126"]
-material/0 = null
-
 [node name="Cube133_col" type="StaticBody" parent="Cube133" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube133/Cube133_col" index="0"]
 shape = SubResource( 127 )
-
-[node name="Cube134" parent="." index="127"]
-material/0 = null
 
 [node name="Cube134_col" type="StaticBody" parent="Cube134" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube134/Cube134_col" index="0"]
 shape = SubResource( 128 )
 
-[node name="Cube135" parent="." index="128"]
-material/0 = null
-
 [node name="Cube135_col" type="StaticBody" parent="Cube135" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube135/Cube135_col" index="0"]
 shape = SubResource( 129 )
-
-[node name="Cube136" parent="." index="129"]
-material/0 = null
 
 [node name="Cube136_col" type="StaticBody" parent="Cube136" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube136/Cube136_col" index="0"]
 shape = SubResource( 130 )
 
-[node name="Cube137" parent="." index="130"]
-material/0 = null
-
 [node name="Cube137_col" type="StaticBody" parent="Cube137" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube137/Cube137_col" index="0"]
 shape = SubResource( 131 )
-
-[node name="Cube138" parent="." index="131"]
-material/0 = null
 
 [node name="Cube138_col" type="StaticBody" parent="Cube138" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube138/Cube138_col" index="0"]
 shape = SubResource( 132 )
 
-[node name="Cube139" parent="." index="132"]
-material/0 = null
-
 [node name="Cube139_col" type="StaticBody" parent="Cube139" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube139/Cube139_col" index="0"]
 shape = SubResource( 133 )
-
-[node name="Cube140" parent="." index="133"]
-material/0 = null
 
 [node name="Cube140_col" type="StaticBody" parent="Cube140" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube140/Cube140_col" index="0"]
 shape = SubResource( 134 )
 
-[node name="Cube141" parent="." index="134"]
-material/0 = null
-
 [node name="Cube141_col" type="StaticBody" parent="Cube141" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube141/Cube141_col" index="0"]
 shape = SubResource( 135 )
-
-[node name="Cube142" parent="." index="135"]
-material/0 = null
 
 [node name="Cube142_col" type="StaticBody" parent="Cube142" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube142/Cube142_col" index="0"]
 shape = SubResource( 136 )
 
-[node name="Cube143" parent="." index="136"]
-material/0 = null
-
 [node name="Cube143_col" type="StaticBody" parent="Cube143" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube143/Cube143_col" index="0"]
 shape = SubResource( 137 )
-
-[node name="Cube144" parent="." index="137"]
-material/0 = null
 
 [node name="Cube144_col" type="StaticBody" parent="Cube144" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube144/Cube144_col" index="0"]
 shape = SubResource( 138 )
 
-[node name="Cube145" parent="." index="138"]
-material/0 = null
-
 [node name="Cube145_col" type="StaticBody" parent="Cube145" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube145/Cube145_col" index="0"]
 shape = SubResource( 139 )
-
-[node name="Cube146" parent="." index="139"]
-material/0 = null
 
 [node name="Cube146_col" type="StaticBody" parent="Cube146" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube146/Cube146_col" index="0"]
 shape = SubResource( 140 )
 
-[node name="Cube147" parent="." index="140"]
-material/0 = null
-
 [node name="Cube147_col" type="StaticBody" parent="Cube147" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube147/Cube147_col" index="0"]
 shape = SubResource( 141 )
-
-[node name="Cube148" parent="." index="141"]
-material/0 = null
 
 [node name="Cube148_col" type="StaticBody" parent="Cube148" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube148/Cube148_col" index="0"]
 shape = SubResource( 142 )
 
-[node name="Cube149" parent="." index="142"]
-material/0 = null
-
 [node name="Cube149_col" type="StaticBody" parent="Cube149" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube149/Cube149_col" index="0"]
 shape = SubResource( 143 )
-
-[node name="Cube150" parent="." index="143"]
-material/0 = null
 
 [node name="Cube150_col" type="StaticBody" parent="Cube150" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube150/Cube150_col" index="0"]
 shape = SubResource( 144 )
 
-[node name="Cube151" parent="." index="144"]
-material/0 = null
-
 [node name="Cube151_col" type="StaticBody" parent="Cube151" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube151/Cube151_col" index="0"]
 shape = SubResource( 145 )
-
-[node name="Cube152" parent="." index="145"]
-material/0 = null
 
 [node name="Cube152_col" type="StaticBody" parent="Cube152" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube152/Cube152_col" index="0"]
 shape = SubResource( 146 )
 
-[node name="Cube153" parent="." index="146"]
-material/0 = null
-
 [node name="Cube153_col" type="StaticBody" parent="Cube153" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube153/Cube153_col" index="0"]
 shape = SubResource( 147 )
-
-[node name="Cube154" parent="." index="147"]
-material/0 = null
 
 [node name="Cube154_col" type="StaticBody" parent="Cube154" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube154/Cube154_col" index="0"]
 shape = SubResource( 148 )
 
-[node name="Cube155" parent="." index="148"]
-material/0 = null
-
 [node name="Cube155_col" type="StaticBody" parent="Cube155" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube155/Cube155_col" index="0"]
 shape = SubResource( 149 )
-
-[node name="Cube156" parent="." index="149"]
-material/0 = null
 
 [node name="Cube156_col" type="StaticBody" parent="Cube156" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube156/Cube156_col" index="0"]
 shape = SubResource( 150 )
 
-[node name="Cube157" parent="." index="150"]
-material/0 = null
-
 [node name="Cube157_col" type="StaticBody" parent="Cube157" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube157/Cube157_col" index="0"]
 shape = SubResource( 151 )
-
-[node name="Cube158" parent="." index="151"]
-material/0 = null
 
 [node name="Cube158_col" type="StaticBody" parent="Cube158" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube158/Cube158_col" index="0"]
 shape = SubResource( 152 )
 
-[node name="Cube159" parent="." index="152"]
-material/0 = null
-
 [node name="Cube159_col" type="StaticBody" parent="Cube159" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube159/Cube159_col" index="0"]
 shape = SubResource( 153 )
-
-[node name="Cube160" parent="." index="153"]
-material/0 = null
 
 [node name="Cube160_col" type="StaticBody" parent="Cube160" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube160/Cube160_col" index="0"]
 shape = SubResource( 154 )
 
-[node name="Cube161" parent="." index="154"]
-material/0 = null
-
 [node name="Cube161_col" type="StaticBody" parent="Cube161" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube161/Cube161_col" index="0"]
 shape = SubResource( 155 )
-
-[node name="Cube162" parent="." index="155"]
-material/0 = null
 
 [node name="Cube162_col" type="StaticBody" parent="Cube162" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube162/Cube162_col" index="0"]
 shape = SubResource( 156 )
 
-[node name="Cube163" parent="." index="156"]
-material/0 = null
-
 [node name="Cube163_col" type="StaticBody" parent="Cube163" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube163/Cube163_col" index="0"]
 shape = SubResource( 157 )
-
-[node name="Cube164" parent="." index="157"]
-material/0 = null
 
 [node name="Cube164_col" type="StaticBody" parent="Cube164" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube164/Cube164_col" index="0"]
 shape = SubResource( 158 )
 
-[node name="Cube165" parent="." index="158"]
-material/0 = null
-
 [node name="Cube165_col" type="StaticBody" parent="Cube165" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube165/Cube165_col" index="0"]
 shape = SubResource( 159 )
-
-[node name="Cube166" parent="." index="159"]
-material/0 = null
 
 [node name="Cube166_col" type="StaticBody" parent="Cube166" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube166/Cube166_col" index="0"]
 shape = SubResource( 160 )
 
-[node name="Cube167" parent="." index="160"]
-material/0 = null
-
 [node name="Cube167_col" type="StaticBody" parent="Cube167" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube167/Cube167_col" index="0"]
 shape = SubResource( 161 )
-
-[node name="Cube168" parent="." index="161"]
-material/0 = null
 
 [node name="Cube168_col" type="StaticBody" parent="Cube168" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube168/Cube168_col" index="0"]
 shape = SubResource( 162 )
 
-[node name="Cube169" parent="." index="162"]
-material/0 = null
-
 [node name="Cube169_col" type="StaticBody" parent="Cube169" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube169/Cube169_col" index="0"]
 shape = SubResource( 163 )
-
-[node name="Cube170" parent="." index="163"]
-material/0 = null
 
 [node name="Cube170_col" type="StaticBody" parent="Cube170" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube170/Cube170_col" index="0"]
 shape = SubResource( 164 )
 
-[node name="Cube171" parent="." index="164"]
-material/0 = null
-
 [node name="Cube171_col" type="StaticBody" parent="Cube171" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube171/Cube171_col" index="0"]
 shape = SubResource( 165 )
-
-[node name="Cube055" parent="." index="165"]
-material/0 = null
 
 [node name="Cube055_col" type="StaticBody" parent="Cube055" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube055/Cube055_col" index="0"]
 shape = SubResource( 166 )
 
-[node name="Cube074" parent="." index="166"]
-material/0 = null
-
 [node name="Cube074_col" type="StaticBody" parent="Cube074" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube074/Cube074_col" index="0"]
 shape = SubResource( 167 )
-
-[node name="Cube094" parent="." index="167"]
-material/0 = null
 
 [node name="Cube094_col" type="StaticBody" parent="Cube094" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube094/Cube094_col" index="0"]
 shape = SubResource( 168 )
 
-[node name="Cube104" parent="." index="168"]
-material/0 = null
-
 [node name="Cube104_col" type="StaticBody" parent="Cube104" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube104/Cube104_col" index="0"]
 shape = SubResource( 169 )
-
-[node name="Cube172" parent="." index="169"]
-material/0 = null
 
 [node name="Cube172_col" type="StaticBody" parent="Cube172" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube172/Cube172_col" index="0"]
 shape = SubResource( 170 )
 
-[node name="Cube173" parent="." index="170"]
-material/0 = null
-
 [node name="Cube173_col" type="StaticBody" parent="Cube173" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube173/Cube173_col" index="0"]
 shape = SubResource( 171 )
-
-[node name="Cube174" parent="." index="171"]
-material/0 = null
 
 [node name="Cube174_col" type="StaticBody" parent="Cube174" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube174/Cube174_col" index="0"]
 shape = SubResource( 172 )
 
-[node name="Cube175" parent="." index="172"]
-material/0 = null
-
 [node name="Cube175_col" type="StaticBody" parent="Cube175" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube175/Cube175_col" index="0"]
 shape = SubResource( 173 )
-
-[node name="Cube176" parent="." index="173"]
-material/0 = null
 
 [node name="Cube176_col" type="StaticBody" parent="Cube176" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube176/Cube176_col" index="0"]
 shape = SubResource( 174 )
 
-[node name="Cube177" parent="." index="174"]
-material/0 = null
-
 [node name="Cube177_col" type="StaticBody" parent="Cube177" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube177/Cube177_col" index="0"]
 shape = SubResource( 175 )
-
-[node name="Cube178" parent="." index="175"]
-material/0 = null
 
 [node name="Cube178_col" type="StaticBody" parent="Cube178" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube178/Cube178_col" index="0"]
 shape = SubResource( 176 )
 
-[node name="Cube179" parent="." index="176"]
-material/0 = null
-
 [node name="Cube179_col" type="StaticBody" parent="Cube179" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube179/Cube179_col" index="0"]
 shape = SubResource( 177 )
-
-[node name="Cube180" parent="." index="177"]
-material/0 = null
 
 [node name="Cube180_col" type="StaticBody" parent="Cube180" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube180/Cube180_col" index="0"]
 shape = SubResource( 178 )
 
-[node name="Cube181" parent="." index="178"]
-material/0 = null
-
 [node name="Cube181_col" type="StaticBody" parent="Cube181" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube181/Cube181_col" index="0"]
 shape = SubResource( 179 )
-
-[node name="Cube182" parent="." index="179"]
-material/0 = null
 
 [node name="Cube182_col" type="StaticBody" parent="Cube182" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube182/Cube182_col" index="0"]
 shape = SubResource( 180 )
 
-[node name="Cube183" parent="." index="180"]
-material/0 = null
-
 [node name="Cube183_col" type="StaticBody" parent="Cube183" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube183/Cube183_col" index="0"]
 shape = SubResource( 181 )
-
-[node name="Cube184" parent="." index="181"]
-material/0 = null
 
 [node name="Cube184_col" type="StaticBody" parent="Cube184" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube184/Cube184_col" index="0"]
 shape = SubResource( 182 )
 
-[node name="Cube185" parent="." index="182"]
-material/0 = null
-
 [node name="Cube185_col" type="StaticBody" parent="Cube185" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube185/Cube185_col" index="0"]
 shape = SubResource( 183 )
-
-[node name="Cube186" parent="." index="183"]
-material/0 = null
 
 [node name="Cube186_col" type="StaticBody" parent="Cube186" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube186/Cube186_col" index="0"]
 shape = SubResource( 184 )
 
-[node name="Cube187" parent="." index="184"]
-material/0 = null
-
 [node name="Cube187_col" type="StaticBody" parent="Cube187" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube187/Cube187_col" index="0"]
 shape = SubResource( 185 )
-
-[node name="Cube188" parent="." index="185"]
-material/0 = null
 
 [node name="Cube188_col" type="StaticBody" parent="Cube188" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube188/Cube188_col" index="0"]
 shape = SubResource( 186 )
 
-[node name="Cube189" parent="." index="186"]
-material/0 = null
-
 [node name="Cube189_col" type="StaticBody" parent="Cube189" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube189/Cube189_col" index="0"]
 shape = SubResource( 187 )
-
-[node name="Cube190" parent="." index="187"]
-material/0 = null
 
 [node name="Cube190_col" type="StaticBody" parent="Cube190" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube190/Cube190_col" index="0"]
 shape = SubResource( 188 )
 
-[node name="Cube191" parent="." index="188"]
-material/0 = null
-
 [node name="Cube191_col" type="StaticBody" parent="Cube191" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube191/Cube191_col" index="0"]
 shape = SubResource( 189 )
-
-[node name="Cube192" parent="." index="189"]
-material/0 = null
 
 [node name="Cube192_col" type="StaticBody" parent="Cube192" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube192/Cube192_col" index="0"]
 shape = SubResource( 190 )
 
-[node name="Cube193" parent="." index="190"]
-material/0 = null
-
 [node name="Cube193_col" type="StaticBody" parent="Cube193" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube193/Cube193_col" index="0"]
 shape = SubResource( 191 )
-
-[node name="Cube194" parent="." index="191"]
-material/0 = null
 
 [node name="Cube194_col" type="StaticBody" parent="Cube194" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube194/Cube194_col" index="0"]
 shape = SubResource( 192 )
 
-[node name="Cube195" parent="." index="192"]
-material/0 = null
-
 [node name="Cube195_col" type="StaticBody" parent="Cube195" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube195/Cube195_col" index="0"]
 shape = SubResource( 193 )
-
-[node name="Cube196" parent="." index="193"]
-material/0 = null
 
 [node name="Cube196_col" type="StaticBody" parent="Cube196" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube196/Cube196_col" index="0"]
 shape = SubResource( 194 )
 
-[node name="Cube197" parent="." index="194"]
-material/0 = null
-
 [node name="Cube197_col" type="StaticBody" parent="Cube197" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube197/Cube197_col" index="0"]
 shape = SubResource( 195 )
-
-[node name="Cube198" parent="." index="195"]
-material/0 = null
 
 [node name="Cube198_col" type="StaticBody" parent="Cube198" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube198/Cube198_col" index="0"]
 shape = SubResource( 196 )
 
-[node name="Cube199" parent="." index="196"]
-material/0 = null
-
 [node name="Cube199_col" type="StaticBody" parent="Cube199" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube199/Cube199_col" index="0"]
 shape = SubResource( 197 )
-
-[node name="Cube200" parent="." index="197"]
-material/0 = null
 
 [node name="Cube200_col" type="StaticBody" parent="Cube200" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube200/Cube200_col" index="0"]
 shape = SubResource( 198 )
 
-[node name="Cube201" parent="." index="198"]
-material/0 = null
-
 [node name="Cube201_col" type="StaticBody" parent="Cube201" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube201/Cube201_col" index="0"]
 shape = SubResource( 199 )
-
-[node name="Cube202" parent="." index="199"]
-material/0 = null
 
 [node name="Cube202_col" type="StaticBody" parent="Cube202" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube202/Cube202_col" index="0"]
 shape = SubResource( 200 )
 
-[node name="Cube203" parent="." index="200"]
-material/0 = null
-
 [node name="Cube203_col" type="StaticBody" parent="Cube203" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube203/Cube203_col" index="0"]
 shape = SubResource( 201 )
-
-[node name="Cube204" parent="." index="201"]
-material/0 = null
 
 [node name="Cube204_col" type="StaticBody" parent="Cube204" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube204/Cube204_col" index="0"]
 shape = SubResource( 202 )
 
-[node name="Cube205" parent="." index="202"]
-material/0 = null
-
 [node name="Cube205_col" type="StaticBody" parent="Cube205" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube205/Cube205_col" index="0"]
 shape = SubResource( 203 )
-
-[node name="Cube206" parent="." index="203"]
-material/0 = null
 
 [node name="Cube206_col" type="StaticBody" parent="Cube206" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube206/Cube206_col" index="0"]
 shape = SubResource( 204 )
 
-[node name="Cube207" parent="." index="204"]
-material/0 = null
-
 [node name="Cube207_col" type="StaticBody" parent="Cube207" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube207/Cube207_col" index="0"]
 shape = SubResource( 205 )
-
-[node name="Cube208" parent="." index="205"]
-material/0 = null
 
 [node name="Cube208_col" type="StaticBody" parent="Cube208" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube208/Cube208_col" index="0"]
 shape = SubResource( 206 )
 
-[node name="Cube209" parent="." index="206"]
-material/0 = null
-
 [node name="Cube209_col" type="StaticBody" parent="Cube209" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube209/Cube209_col" index="0"]
 shape = SubResource( 207 )
-
-[node name="Cube210" parent="." index="207"]
-material/0 = null
 
 [node name="Cube210_col" type="StaticBody" parent="Cube210" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube210/Cube210_col" index="0"]
 shape = SubResource( 208 )
 
-[node name="Cube211" parent="." index="208"]
-material/0 = null
-
 [node name="Cube211_col" type="StaticBody" parent="Cube211" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube211/Cube211_col" index="0"]
 shape = SubResource( 209 )
-
-[node name="Cube212" parent="." index="209"]
-material/0 = null
 
 [node name="Cube212_col" type="StaticBody" parent="Cube212" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube212/Cube212_col" index="0"]
 shape = SubResource( 210 )
 
-[node name="Cube213" parent="." index="210"]
-material/0 = null
-
 [node name="Cube213_col" type="StaticBody" parent="Cube213" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube213/Cube213_col" index="0"]
 shape = SubResource( 211 )
-
-[node name="Cube214" parent="." index="211"]
-material/0 = null
 
 [node name="Cube214_col" type="StaticBody" parent="Cube214" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube214/Cube214_col" index="0"]
 shape = SubResource( 212 )
 
-[node name="Cube215" parent="." index="212"]
-material/0 = null
-
 [node name="Cube215_col" type="StaticBody" parent="Cube215" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube215/Cube215_col" index="0"]
 shape = SubResource( 213 )
-
-[node name="Cube216" parent="." index="213"]
-material/0 = null
 
 [node name="Cube216_col" type="StaticBody" parent="Cube216" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube216/Cube216_col" index="0"]
 shape = SubResource( 214 )
 
-[node name="Cube217" parent="." index="214"]
-material/0 = null
-
 [node name="Cube217_col" type="StaticBody" parent="Cube217" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube217/Cube217_col" index="0"]
 shape = SubResource( 215 )
-
-[node name="Cube218" parent="." index="215"]
-material/0 = null
 
 [node name="Cube218_col" type="StaticBody" parent="Cube218" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube218/Cube218_col" index="0"]
 shape = SubResource( 216 )
 
-[node name="Cube219" parent="." index="216"]
-material/0 = null
-
 [node name="Cube219_col" type="StaticBody" parent="Cube219" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube219/Cube219_col" index="0"]
 shape = SubResource( 217 )
-
-[node name="Cube220" parent="." index="217"]
-material/0 = null
 
 [node name="Cube220_col" type="StaticBody" parent="Cube220" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube220/Cube220_col" index="0"]
 shape = SubResource( 218 )
 
-[node name="Cube221" parent="." index="218"]
-material/0 = null
-
 [node name="Cube221_col" type="StaticBody" parent="Cube221" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube221/Cube221_col" index="0"]
 shape = SubResource( 219 )
-
-[node name="Cube222" parent="." index="219"]
-material/0 = null
 
 [node name="Cube222_col" type="StaticBody" parent="Cube222" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube222/Cube222_col" index="0"]
 shape = SubResource( 220 )
 
-[node name="Cube223" parent="." index="220"]
-material/0 = null
-
 [node name="Cube223_col" type="StaticBody" parent="Cube223" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube223/Cube223_col" index="0"]
 shape = SubResource( 221 )
-
-[node name="Cube224" parent="." index="221"]
-material/0 = null
 
 [node name="Cube224_col" type="StaticBody" parent="Cube224" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube224/Cube224_col" index="0"]
 shape = SubResource( 222 )
 
-[node name="Cube225" parent="." index="222"]
-material/0 = null
-
 [node name="Cube225_col" type="StaticBody" parent="Cube225" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube225/Cube225_col" index="0"]
 shape = SubResource( 223 )
-
-[node name="Cube226" parent="." index="223"]
-material/0 = null
 
 [node name="Cube226_col" type="StaticBody" parent="Cube226" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube226/Cube226_col" index="0"]
 shape = SubResource( 224 )
 
-[node name="Cube227" parent="." index="224"]
-material/0 = null
-
 [node name="Cube227_col" type="StaticBody" parent="Cube227" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube227/Cube227_col" index="0"]
 shape = SubResource( 225 )
-
-[node name="Cube228" parent="." index="225"]
-material/0 = null
 
 [node name="Cube228_col" type="StaticBody" parent="Cube228" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube228/Cube228_col" index="0"]
 shape = SubResource( 226 )
 
-[node name="Cube229" parent="." index="226"]
-material/0 = null
-
 [node name="Cube229_col" type="StaticBody" parent="Cube229" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube229/Cube229_col" index="0"]
 shape = SubResource( 227 )
-
-[node name="Cube230" parent="." index="227"]
-material/0 = null
 
 [node name="Cube230_col" type="StaticBody" parent="Cube230" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube230/Cube230_col" index="0"]
 shape = SubResource( 228 )
 
-[node name="Cube231" parent="." index="228"]
-material/0 = null
-
 [node name="Cube231_col" type="StaticBody" parent="Cube231" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube231/Cube231_col" index="0"]
 shape = SubResource( 229 )
-
-[node name="Cube232" parent="." index="229"]
-material/0 = null
 
 [node name="Cube232_col" type="StaticBody" parent="Cube232" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube232/Cube232_col" index="0"]
 shape = SubResource( 230 )
 
-[node name="Cube233" parent="." index="230"]
-material/0 = null
-
 [node name="Cube233_col" type="StaticBody" parent="Cube233" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube233/Cube233_col" index="0"]
 shape = SubResource( 231 )
-
-[node name="Cube234" parent="." index="231"]
-material/0 = null
 
 [node name="Cube234_col" type="StaticBody" parent="Cube234" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube234/Cube234_col" index="0"]
 shape = SubResource( 232 )
 
-[node name="Cube235" parent="." index="232"]
-material/0 = null
-
 [node name="Cube235_col" type="StaticBody" parent="Cube235" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube235/Cube235_col" index="0"]
 shape = SubResource( 233 )
-
-[node name="Cube236" parent="." index="233"]
-material/0 = null
 
 [node name="Cube236_col" type="StaticBody" parent="Cube236" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube236/Cube236_col" index="0"]
 shape = SubResource( 234 )
 
-[node name="Cube237" parent="." index="234"]
-material/0 = null
-
 [node name="Cube237_col" type="StaticBody" parent="Cube237" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube237/Cube237_col" index="0"]
 shape = SubResource( 235 )
-
-[node name="Cube238" parent="." index="235"]
-material/0 = null
 
 [node name="Cube238_col" type="StaticBody" parent="Cube238" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube238/Cube238_col" index="0"]
 shape = SubResource( 236 )
 
-[node name="Cube239" parent="." index="236"]
-material/0 = null
-
 [node name="Cube239_col" type="StaticBody" parent="Cube239" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube239/Cube239_col" index="0"]
 shape = SubResource( 237 )
-
-[node name="Cube240" parent="." index="237"]
-material/0 = null
 
 [node name="Cube240_col" type="StaticBody" parent="Cube240" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube240/Cube240_col" index="0"]
 shape = SubResource( 238 )
 
-[node name="Cube241" parent="." index="238"]
-material/0 = null
-
 [node name="Cube241_col" type="StaticBody" parent="Cube241" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube241/Cube241_col" index="0"]
 shape = SubResource( 239 )
-
-[node name="Cube242" parent="." index="239"]
-material/0 = null
 
 [node name="Cube242_col" type="StaticBody" parent="Cube242" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube242/Cube242_col" index="0"]
 shape = SubResource( 240 )
 
-[node name="Cube243" parent="." index="240"]
-material/0 = null
-
 [node name="Cube243_col" type="StaticBody" parent="Cube243" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube243/Cube243_col" index="0"]
 shape = SubResource( 241 )
-
-[node name="Cube244" parent="." index="241"]
-material/0 = null
 
 [node name="Cube244_col" type="StaticBody" parent="Cube244" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube244/Cube244_col" index="0"]
 shape = SubResource( 242 )
 
-[node name="Cube245" parent="." index="242"]
-material/0 = null
-
 [node name="Cube245_col" type="StaticBody" parent="Cube245" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube245/Cube245_col" index="0"]
 shape = SubResource( 243 )
-
-[node name="Cube246" parent="." index="243"]
-material/0 = null
 
 [node name="Cube246_col" type="StaticBody" parent="Cube246" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube246/Cube246_col" index="0"]
 shape = SubResource( 244 )
 
-[node name="Cube247" parent="." index="244"]
-material/0 = null
-
 [node name="Cube247_col" type="StaticBody" parent="Cube247" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube247/Cube247_col" index="0"]
 shape = SubResource( 245 )
-
-[node name="Cube248" parent="." index="245"]
-material/0 = null
 
 [node name="Cube248_col" type="StaticBody" parent="Cube248" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube248/Cube248_col" index="0"]
 shape = SubResource( 246 )
 
-[node name="Cube249" parent="." index="246"]
-material/0 = null
-
 [node name="Cube249_col" type="StaticBody" parent="Cube249" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube249/Cube249_col" index="0"]
 shape = SubResource( 247 )
-
-[node name="Cube250" parent="." index="247"]
-material/0 = null
 
 [node name="Cube250_col" type="StaticBody" parent="Cube250" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube250/Cube250_col" index="0"]
 shape = SubResource( 248 )
 
-[node name="Cube251" parent="." index="248"]
-material/0 = null
-
 [node name="Cube251_col" type="StaticBody" parent="Cube251" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube251/Cube251_col" index="0"]
 shape = SubResource( 249 )
-
-[node name="Cube252" parent="." index="249"]
-material/0 = null
 
 [node name="Cube252_col" type="StaticBody" parent="Cube252" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube252/Cube252_col" index="0"]
 shape = SubResource( 250 )
 
-[node name="Cube253" parent="." index="250"]
-material/0 = null
-
 [node name="Cube253_col" type="StaticBody" parent="Cube253" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube253/Cube253_col" index="0"]
 shape = SubResource( 251 )
-
-[node name="Cube254" parent="." index="251"]
-material/0 = null
 
 [node name="Cube254_col" type="StaticBody" parent="Cube254" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube254/Cube254_col" index="0"]
 shape = SubResource( 252 )
 
-[node name="Cube255" parent="." index="252"]
-material/0 = null
-
 [node name="Cube255_col" type="StaticBody" parent="Cube255" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube255/Cube255_col" index="0"]
 shape = SubResource( 253 )
-
-[node name="Cube256" parent="." index="253"]
-material/0 = null
 
 [node name="Cube256_col" type="StaticBody" parent="Cube256" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube256/Cube256_col" index="0"]
 shape = SubResource( 254 )
 
-[node name="Cube257" parent="." index="254"]
-material/0 = null
-
 [node name="Cube257_col" type="StaticBody" parent="Cube257" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube257/Cube257_col" index="0"]
 shape = SubResource( 255 )
-
-[node name="Cube258" parent="." index="255"]
-material/0 = null
 
 [node name="Cube258_col" type="StaticBody" parent="Cube258" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube258/Cube258_col" index="0"]
 shape = SubResource( 256 )
 
-[node name="Cube259" parent="." index="256"]
-material/0 = null
-
 [node name="Cube259_col" type="StaticBody" parent="Cube259" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube259/Cube259_col" index="0"]
 shape = SubResource( 257 )
-
-[node name="Cube260" parent="." index="257"]
-material/0 = null
 
 [node name="Cube260_col" type="StaticBody" parent="Cube260" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube260/Cube260_col" index="0"]
 shape = SubResource( 258 )
 
-[node name="Cube261" parent="." index="258"]
-material/0 = null
-
 [node name="Cube261_col" type="StaticBody" parent="Cube261" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube261/Cube261_col" index="0"]
 shape = SubResource( 259 )
-
-[node name="Cube262" parent="." index="259"]
-material/0 = null
 
 [node name="Cube262_col" type="StaticBody" parent="Cube262" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube262/Cube262_col" index="0"]
 shape = SubResource( 260 )
 
-[node name="Cube263" parent="." index="260"]
-material/0 = null
-
 [node name="Cube263_col" type="StaticBody" parent="Cube263" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube263/Cube263_col" index="0"]
 shape = SubResource( 261 )
-
-[node name="Cube264" parent="." index="261"]
-material/0 = null
 
 [node name="Cube264_col" type="StaticBody" parent="Cube264" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube264/Cube264_col" index="0"]
 shape = SubResource( 262 )
 
-[node name="Cube265" parent="." index="262"]
-material/0 = null
-
 [node name="Cube265_col" type="StaticBody" parent="Cube265" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube265/Cube265_col" index="0"]
 shape = SubResource( 263 )
-
-[node name="Cube266" parent="." index="263"]
-material/0 = null
 
 [node name="Cube266_col" type="StaticBody" parent="Cube266" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube266/Cube266_col" index="0"]
 shape = SubResource( 264 )
 
-[node name="Cube267" parent="." index="264"]
-material/0 = null
-
 [node name="Cube267_col" type="StaticBody" parent="Cube267" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube267/Cube267_col" index="0"]
 shape = SubResource( 265 )
-
-[node name="Cube268" parent="." index="265"]
-material/0 = null
 
 [node name="Cube268_col" type="StaticBody" parent="Cube268" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube268/Cube268_col" index="0"]
 shape = SubResource( 266 )
 
-[node name="Cube269" parent="." index="266"]
-material/0 = null
-
 [node name="Cube269_col" type="StaticBody" parent="Cube269" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube269/Cube269_col" index="0"]
 shape = SubResource( 267 )
-
-[node name="Cube270" parent="." index="267"]
-material/0 = null
 
 [node name="Cube270_col" type="StaticBody" parent="Cube270" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube270/Cube270_col" index="0"]
 shape = SubResource( 268 )
 
-[node name="Cube271" parent="." index="268"]
-material/0 = null
-
 [node name="Cube271_col" type="StaticBody" parent="Cube271" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube271/Cube271_col" index="0"]
 shape = SubResource( 269 )
-
-[node name="Cube272" parent="." index="269"]
-material/0 = null
 
 [node name="Cube272_col" type="StaticBody" parent="Cube272" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube272/Cube272_col" index="0"]
 shape = SubResource( 270 )
 
-[node name="Cube273" parent="." index="270"]
-material/0 = null
-
 [node name="Cube273_col" type="StaticBody" parent="Cube273" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube273/Cube273_col" index="0"]
 shape = SubResource( 271 )
-
-[node name="Cube274" parent="." index="271"]
-material/0 = null
 
 [node name="Cube274_col" type="StaticBody" parent="Cube274" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube274/Cube274_col" index="0"]
 shape = SubResource( 272 )
 
-[node name="Cube275" parent="." index="272"]
-material/0 = null
-
 [node name="Cube275_col" type="StaticBody" parent="Cube275" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube275/Cube275_col" index="0"]
 shape = SubResource( 273 )
-
-[node name="Cube276" parent="." index="273"]
-material/0 = null
 
 [node name="Cube276_col" type="StaticBody" parent="Cube276" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube276/Cube276_col" index="0"]
 shape = SubResource( 274 )
 
-[node name="Cube277" parent="." index="274"]
-material/0 = null
-
 [node name="Cube277_col" type="StaticBody" parent="Cube277" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube277/Cube277_col" index="0"]
 shape = SubResource( 275 )
-
-[node name="Cube278" parent="." index="275"]
-material/0 = null
 
 [node name="Cube278_col" type="StaticBody" parent="Cube278" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube278/Cube278_col" index="0"]
 shape = SubResource( 276 )
 
-[node name="Cube279" parent="." index="276"]
-material/0 = null
-
 [node name="Cube279_col" type="StaticBody" parent="Cube279" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube279/Cube279_col" index="0"]
 shape = SubResource( 277 )
-
-[node name="Cube280" parent="." index="277"]
-material/0 = null
 
 [node name="Cube280_col" type="StaticBody" parent="Cube280" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube280/Cube280_col" index="0"]
 shape = SubResource( 278 )
 
-[node name="Cube281" parent="." index="278"]
-material/0 = null
-
 [node name="Cube281_col" type="StaticBody" parent="Cube281" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube281/Cube281_col" index="0"]
 shape = SubResource( 279 )
-
-[node name="Cube282" parent="." index="279"]
-material/0 = null
 
 [node name="Cube282_col" type="StaticBody" parent="Cube282" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube282/Cube282_col" index="0"]
 shape = SubResource( 280 )
 
-[node name="Cube283" parent="." index="280"]
-material/0 = null
-
 [node name="Cube283_col" type="StaticBody" parent="Cube283" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube283/Cube283_col" index="0"]
 shape = SubResource( 281 )
-
-[node name="Cube284" parent="." index="281"]
-material/0 = null
 
 [node name="Cube284_col" type="StaticBody" parent="Cube284" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube284/Cube284_col" index="0"]
 shape = SubResource( 282 )
 
-[node name="Cube285" parent="." index="282"]
-material/0 = null
-
 [node name="Cube285_col" type="StaticBody" parent="Cube285" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube285/Cube285_col" index="0"]
 shape = SubResource( 283 )
-
-[node name="Cube286" parent="." index="283"]
-material/0 = null
 
 [node name="Cube286_col" type="StaticBody" parent="Cube286" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube286/Cube286_col" index="0"]
 shape = SubResource( 284 )
 
-[node name="Cube287" parent="." index="284"]
-material/0 = null
-
 [node name="Cube287_col" type="StaticBody" parent="Cube287" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube287/Cube287_col" index="0"]
 shape = SubResource( 285 )
-
-[node name="Cube288" parent="." index="285"]
-material/0 = null
 
 [node name="Cube288_col" type="StaticBody" parent="Cube288" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube288/Cube288_col" index="0"]
 shape = SubResource( 286 )
 
-[node name="Cube289" parent="." index="286"]
-material/0 = null
-
 [node name="Cube289_col" type="StaticBody" parent="Cube289" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube289/Cube289_col" index="0"]
 shape = SubResource( 287 )
-
-[node name="Cube290" parent="." index="287"]
-material/0 = null
 
 [node name="Cube290_col" type="StaticBody" parent="Cube290" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube290/Cube290_col" index="0"]
 shape = SubResource( 288 )
 
-[node name="Cube291" parent="." index="288"]
-material/0 = null
-
 [node name="Cube291_col" type="StaticBody" parent="Cube291" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube291/Cube291_col" index="0"]
 shape = SubResource( 289 )
-
-[node name="Cube292" parent="." index="289"]
-material/0 = null
 
 [node name="Cube292_col" type="StaticBody" parent="Cube292" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube292/Cube292_col" index="0"]
 shape = SubResource( 290 )
 
-[node name="Cube293" parent="." index="290"]
-material/0 = null
-
 [node name="Cube293_col" type="StaticBody" parent="Cube293" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube293/Cube293_col" index="0"]
 shape = SubResource( 291 )
-
-[node name="Cube294" parent="." index="291"]
-material/0 = null
 
 [node name="Cube294_col" type="StaticBody" parent="Cube294" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube294/Cube294_col" index="0"]
 shape = SubResource( 292 )
 
-[node name="Cube295" parent="." index="292"]
-material/0 = null
-
 [node name="Cube295_col" type="StaticBody" parent="Cube295" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube295/Cube295_col" index="0"]
 shape = SubResource( 293 )
-
-[node name="Cube296" parent="." index="293"]
-material/0 = null
 
 [node name="Cube296_col" type="StaticBody" parent="Cube296" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube296/Cube296_col" index="0"]
 shape = SubResource( 294 )
 
-[node name="Cube297" parent="." index="294"]
-material/0 = null
-
 [node name="Cube297_col" type="StaticBody" parent="Cube297" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube297/Cube297_col" index="0"]
 shape = SubResource( 295 )
-
-[node name="Cube298" parent="." index="295"]
-material/0 = null
 
 [node name="Cube298_col" type="StaticBody" parent="Cube298" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube298/Cube298_col" index="0"]
 shape = SubResource( 296 )
 
-[node name="Cube299" parent="." index="296"]
-material/0 = null
-
 [node name="Cube299_col" type="StaticBody" parent="Cube299" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube299/Cube299_col" index="0"]
 shape = SubResource( 297 )
-
-[node name="Cube300" parent="." index="297"]
-material/0 = null
 
 [node name="Cube300_col" type="StaticBody" parent="Cube300" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube300/Cube300_col" index="0"]
 shape = SubResource( 298 )
 
-[node name="Cube301" parent="." index="298"]
-material/0 = null
-
 [node name="Cube301_col" type="StaticBody" parent="Cube301" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube301/Cube301_col" index="0"]
 shape = SubResource( 299 )
-
-[node name="Cube302" parent="." index="299"]
-material/0 = null
 
 [node name="Cube302_col" type="StaticBody" parent="Cube302" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube302/Cube302_col" index="0"]
 shape = SubResource( 300 )
 
-[node name="Cube303" parent="." index="300"]
-material/0 = null
-
 [node name="Cube303_col" type="StaticBody" parent="Cube303" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube303/Cube303_col" index="0"]
 shape = SubResource( 301 )
-
-[node name="Cube304" parent="." index="301"]
-material/0 = null
 
 [node name="Cube304_col" type="StaticBody" parent="Cube304" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube304/Cube304_col" index="0"]
 shape = SubResource( 302 )
 
-[node name="Cube305" parent="." index="302"]
-material/0 = null
-
 [node name="Cube305_col" type="StaticBody" parent="Cube305" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube305/Cube305_col" index="0"]
 shape = SubResource( 303 )
-
-[node name="Cube306" parent="." index="303"]
-material/0 = null
 
 [node name="Cube306_col" type="StaticBody" parent="Cube306" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube306/Cube306_col" index="0"]
 shape = SubResource( 304 )
 
-[node name="Cube307" parent="." index="304"]
-material/0 = null
-
 [node name="Cube307_col" type="StaticBody" parent="Cube307" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube307/Cube307_col" index="0"]
 shape = SubResource( 305 )
-
-[node name="Cube308" parent="." index="305"]
-material/0 = null
 
 [node name="Cube308_col" type="StaticBody" parent="Cube308" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube308/Cube308_col" index="0"]
 shape = SubResource( 306 )
 
-[node name="Cube309" parent="." index="306"]
-material/0 = null
-
 [node name="Cube309_col" type="StaticBody" parent="Cube309" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube309/Cube309_col" index="0"]
 shape = SubResource( 307 )
-
-[node name="Cube310" parent="." index="307"]
-material/0 = null
 
 [node name="Cube310_col" type="StaticBody" parent="Cube310" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube310/Cube310_col" index="0"]
 shape = SubResource( 308 )
 
-[node name="Cube311" parent="." index="308"]
-material/0 = null
-
 [node name="Cube311_col" type="StaticBody" parent="Cube311" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube311/Cube311_col" index="0"]
 shape = SubResource( 309 )
-
-[node name="Cube312" parent="." index="309"]
-material/0 = null
 
 [node name="Cube312_col" type="StaticBody" parent="Cube312" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube312/Cube312_col" index="0"]
 shape = SubResource( 310 )
 
-[node name="Cube313" parent="." index="310"]
-material/0 = null
-
 [node name="Cube313_col" type="StaticBody" parent="Cube313" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube313/Cube313_col" index="0"]
 shape = SubResource( 311 )
-
-[node name="Cube314" parent="." index="311"]
-material/0 = null
 
 [node name="Cube314_col" type="StaticBody" parent="Cube314" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube314/Cube314_col" index="0"]
 shape = SubResource( 312 )
 
-[node name="Cube315" parent="." index="312"]
-material/0 = null
-
 [node name="Cube315_col" type="StaticBody" parent="Cube315" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube315/Cube315_col" index="0"]
 shape = SubResource( 313 )
-
-[node name="Cube316" parent="." index="313"]
-material/0 = null
 
 [node name="Cube316_col" type="StaticBody" parent="Cube316" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube316/Cube316_col" index="0"]
 shape = SubResource( 314 )
 
-[node name="Cube317" parent="." index="314"]
-material/0 = null
-
 [node name="Cube317_col" type="StaticBody" parent="Cube317" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube317/Cube317_col" index="0"]
 shape = SubResource( 315 )
-
-[node name="Cube318" parent="." index="315"]
-material/0 = null
 
 [node name="Cube318_col" type="StaticBody" parent="Cube318" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube318/Cube318_col" index="0"]
 shape = SubResource( 316 )
 
-[node name="Cube319" parent="." index="316"]
-material/0 = null
-
 [node name="Cube319_col" type="StaticBody" parent="Cube319" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube319/Cube319_col" index="0"]
 shape = SubResource( 317 )
-
-[node name="Cube320" parent="." index="317"]
-material/0 = null
 
 [node name="Cube320_col" type="StaticBody" parent="Cube320" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube320/Cube320_col" index="0"]
 shape = SubResource( 318 )
 
-[node name="Cube321" parent="." index="318"]
-material/0 = null
-
 [node name="Cube321_col" type="StaticBody" parent="Cube321" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube321/Cube321_col" index="0"]
 shape = SubResource( 319 )
-
-[node name="Cube322" parent="." index="319"]
-material/0 = null
 
 [node name="Cube322_col" type="StaticBody" parent="Cube322" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube322/Cube322_col" index="0"]
 shape = SubResource( 320 )
 
-[node name="Cube323" parent="." index="320"]
-material/0 = null
-
 [node name="Cube323_col" type="StaticBody" parent="Cube323" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube323/Cube323_col" index="0"]
 shape = SubResource( 321 )
-
-[node name="Cube324" parent="." index="321"]
-material/0 = null
 
 [node name="Cube324_col" type="StaticBody" parent="Cube324" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube324/Cube324_col" index="0"]
 shape = SubResource( 322 )
 
-[node name="Cube325" parent="." index="322"]
-material/0 = null
-
 [node name="Cube325_col" type="StaticBody" parent="Cube325" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube325/Cube325_col" index="0"]
 shape = SubResource( 323 )
-
-[node name="Cube326" parent="." index="323"]
-material/0 = null
 
 [node name="Cube326_col" type="StaticBody" parent="Cube326" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube326/Cube326_col" index="0"]
 shape = SubResource( 324 )
 
-[node name="Cube327" parent="." index="324"]
-material/0 = null
-
 [node name="Cube327_col" type="StaticBody" parent="Cube327" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube327/Cube327_col" index="0"]
 shape = SubResource( 325 )
-
-[node name="Cube328" parent="." index="325"]
-material/0 = null
 
 [node name="Cube328_col" type="StaticBody" parent="Cube328" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube328/Cube328_col" index="0"]
 shape = SubResource( 326 )
 
-[node name="Cube329" parent="." index="326"]
-material/0 = null
-
 [node name="Cube329_col" type="StaticBody" parent="Cube329" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube329/Cube329_col" index="0"]
 shape = SubResource( 327 )
-
-[node name="Cube330" parent="." index="327"]
-material/0 = null
 
 [node name="Cube330_col" type="StaticBody" parent="Cube330" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube330/Cube330_col" index="0"]
 shape = SubResource( 328 )
 
-[node name="Cube331" parent="." index="328"]
-material/0 = null
-
 [node name="Cube331_col" type="StaticBody" parent="Cube331" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube331/Cube331_col" index="0"]
 shape = SubResource( 329 )
-
-[node name="Cube332" parent="." index="329"]
-material/0 = null
 
 [node name="Cube332_col" type="StaticBody" parent="Cube332" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube332/Cube332_col" index="0"]
 shape = SubResource( 330 )
 
-[node name="Cube333" parent="." index="330"]
-material/0 = null
-
 [node name="Cube333_col" type="StaticBody" parent="Cube333" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube333/Cube333_col" index="0"]
 shape = SubResource( 331 )
-
-[node name="Cube334" parent="." index="331"]
-material/0 = null
 
 [node name="Cube334_col" type="StaticBody" parent="Cube334" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube334/Cube334_col" index="0"]
 shape = SubResource( 332 )
 
-[node name="Cube335" parent="." index="332"]
-material/0 = null
-
 [node name="Cube335_col" type="StaticBody" parent="Cube335" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube335/Cube335_col" index="0"]
 shape = SubResource( 333 )
-
-[node name="Cube336" parent="." index="333"]
-material/0 = null
 
 [node name="Cube336_col" type="StaticBody" parent="Cube336" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube336/Cube336_col" index="0"]
 shape = SubResource( 334 )
 
-[node name="Cube337" parent="." index="334"]
-material/0 = null
-
 [node name="Cube337_col" type="StaticBody" parent="Cube337" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube337/Cube337_col" index="0"]
 shape = SubResource( 335 )
-
-[node name="Cube338" parent="." index="335"]
-material/0 = null
 
 [node name="Cube338_col" type="StaticBody" parent="Cube338" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube338/Cube338_col" index="0"]
 shape = SubResource( 336 )
 
-[node name="Cube339" parent="." index="336"]
-material/0 = null
-
 [node name="Cube339_col" type="StaticBody" parent="Cube339" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube339/Cube339_col" index="0"]
 shape = SubResource( 337 )
-
-[node name="Cube340" parent="." index="337"]
-material/0 = null
 
 [node name="Cube340_col" type="StaticBody" parent="Cube340" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube340/Cube340_col" index="0"]
 shape = SubResource( 338 )
 
-[node name="Cube341" parent="." index="338"]
-material/0 = null
-
 [node name="Cube341_col" type="StaticBody" parent="Cube341" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube341/Cube341_col" index="0"]
 shape = SubResource( 339 )
-
-[node name="Cube342" parent="." index="339"]
-material/0 = null
 
 [node name="Cube342_col" type="StaticBody" parent="Cube342" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube342/Cube342_col" index="0"]
 shape = SubResource( 340 )
 
-[node name="Cube343" parent="." index="340"]
-material/0 = null
-
 [node name="Cube343_col" type="StaticBody" parent="Cube343" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube343/Cube343_col" index="0"]
 shape = SubResource( 341 )
-
-[node name="Cube344" parent="." index="341"]
-material/0 = null
 
 [node name="Cube344_col" type="StaticBody" parent="Cube344" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube344/Cube344_col" index="0"]
 shape = SubResource( 342 )
 
-[node name="Cube345" parent="." index="342"]
-material/0 = null
-
 [node name="Cube345_col" type="StaticBody" parent="Cube345" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube345/Cube345_col" index="0"]
 shape = SubResource( 343 )
-
-[node name="Cube346" parent="." index="343"]
-material/0 = null
 
 [node name="Cube346_col" type="StaticBody" parent="Cube346" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube346/Cube346_col" index="0"]
 shape = SubResource( 344 )
 
-[node name="Cube347" parent="." index="344"]
-material/0 = null
-
 [node name="Cube347_col" type="StaticBody" parent="Cube347" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube347/Cube347_col" index="0"]
 shape = SubResource( 345 )
-
-[node name="Cube348" parent="." index="345"]
-material/0 = null
 
 [node name="Cube348_col" type="StaticBody" parent="Cube348" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube348/Cube348_col" index="0"]
 shape = SubResource( 346 )
 
-[node name="Cube349" parent="." index="346"]
-material/0 = null
-
 [node name="Cube349_col" type="StaticBody" parent="Cube349" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube349/Cube349_col" index="0"]
 shape = SubResource( 347 )
-
-[node name="Cube350" parent="." index="347"]
-material/0 = null
 
 [node name="Cube350_col" type="StaticBody" parent="Cube350" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube350/Cube350_col" index="0"]
 shape = SubResource( 348 )
 
-[node name="Cube351" parent="." index="348"]
-material/0 = null
-
 [node name="Cube351_col" type="StaticBody" parent="Cube351" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube351/Cube351_col" index="0"]
 shape = SubResource( 349 )
-
-[node name="Cube352" parent="." index="349"]
-material/0 = null
 
 [node name="Cube352_col" type="StaticBody" parent="Cube352" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube352/Cube352_col" index="0"]
 shape = SubResource( 350 )
 
-[node name="Cube353" parent="." index="350"]
-material/0 = null
-
 [node name="Cube353_col" type="StaticBody" parent="Cube353" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube353/Cube353_col" index="0"]
 shape = SubResource( 351 )
-
-[node name="Cube354" parent="." index="351"]
-material/0 = null
 
 [node name="Cube354_col" type="StaticBody" parent="Cube354" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube354/Cube354_col" index="0"]
 shape = SubResource( 352 )
 
-[node name="Cube355" parent="." index="352"]
-material/0 = null
-
 [node name="Cube355_col" type="StaticBody" parent="Cube355" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube355/Cube355_col" index="0"]
 shape = SubResource( 353 )
-
-[node name="Cube356" parent="." index="353"]
-material/0 = null
 
 [node name="Cube356_col" type="StaticBody" parent="Cube356" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube356/Cube356_col" index="0"]
 shape = SubResource( 354 )
 
-[node name="Cube357" parent="." index="354"]
-material/0 = null
-
 [node name="Cube357_col" type="StaticBody" parent="Cube357" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube357/Cube357_col" index="0"]
 shape = SubResource( 355 )
-
-[node name="Cube358" parent="." index="355"]
-material/0 = null
 
 [node name="Cube358_col" type="StaticBody" parent="Cube358" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube358/Cube358_col" index="0"]
 shape = SubResource( 356 )
 
-[node name="Cube359" parent="." index="356"]
-material/0 = null
-
 [node name="Cube359_col" type="StaticBody" parent="Cube359" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube359/Cube359_col" index="0"]
 shape = SubResource( 357 )
-
-[node name="Cube360" parent="." index="357"]
-material/0 = null
 
 [node name="Cube360_col" type="StaticBody" parent="Cube360" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube360/Cube360_col" index="0"]
 shape = SubResource( 358 )
 
-[node name="Cube361" parent="." index="358"]
-material/0 = null
-
 [node name="Cube361_col" type="StaticBody" parent="Cube361" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube361/Cube361_col" index="0"]
 shape = SubResource( 359 )
-
-[node name="Cube362" parent="." index="359"]
-material/0 = null
 
 [node name="Cube362_col" type="StaticBody" parent="Cube362" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube362/Cube362_col" index="0"]
 shape = SubResource( 360 )
 
-[node name="Cube363" parent="." index="360"]
-material/0 = null
-
 [node name="Cube363_col" type="StaticBody" parent="Cube363" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube363/Cube363_col" index="0"]
 shape = SubResource( 361 )
-
-[node name="Cube364" parent="." index="361"]
-material/0 = null
 
 [node name="Cube364_col" type="StaticBody" parent="Cube364" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube364/Cube364_col" index="0"]
 shape = SubResource( 362 )
 
-[node name="Cube365" parent="." index="362"]
-material/0 = null
-
 [node name="Cube365_col" type="StaticBody" parent="Cube365" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube365/Cube365_col" index="0"]
 shape = SubResource( 363 )
-
-[node name="Cube366" parent="." index="363"]
-material/0 = null
 
 [node name="Cube366_col" type="StaticBody" parent="Cube366" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube366/Cube366_col" index="0"]
 shape = SubResource( 364 )
 
-[node name="Cube367" parent="." index="364"]
-material/0 = null
-
 [node name="Cube367_col" type="StaticBody" parent="Cube367" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube367/Cube367_col" index="0"]
 shape = SubResource( 365 )
-
-[node name="Cube368" parent="." index="365"]
-material/0 = null
 
 [node name="Cube368_col" type="StaticBody" parent="Cube368" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube368/Cube368_col" index="0"]
 shape = SubResource( 366 )
 
-[node name="Cube369" parent="." index="366"]
-material/0 = null
-
 [node name="Cube369_col" type="StaticBody" parent="Cube369" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube369/Cube369_col" index="0"]
 shape = SubResource( 367 )
-
-[node name="Cube370" parent="." index="367"]
-material/0 = null
 
 [node name="Cube370_col" type="StaticBody" parent="Cube370" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube370/Cube370_col" index="0"]
 shape = SubResource( 368 )
 
-[node name="Cube371" parent="." index="368"]
-material/0 = null
-
 [node name="Cube371_col" type="StaticBody" parent="Cube371" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube371/Cube371_col" index="0"]
 shape = SubResource( 369 )
-
-[node name="Cube372" parent="." index="369"]
-material/0 = null
 
 [node name="Cube372_col" type="StaticBody" parent="Cube372" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube372/Cube372_col" index="0"]
 shape = SubResource( 370 )
 
-[node name="Cube373" parent="." index="370"]
-material/0 = null
-
 [node name="Cube373_col" type="StaticBody" parent="Cube373" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube373/Cube373_col" index="0"]
 shape = SubResource( 371 )
-
-[node name="Cube374" parent="." index="371"]
-material/0 = null
 
 [node name="Cube374_col" type="StaticBody" parent="Cube374" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube374/Cube374_col" index="0"]
 shape = SubResource( 372 )
 
-[node name="Cube375" parent="." index="372"]
-material/0 = null
-
 [node name="Cube375_col" type="StaticBody" parent="Cube375" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube375/Cube375_col" index="0"]
 shape = SubResource( 373 )
-
-[node name="Cube376" parent="." index="373"]
-material/0 = null
 
 [node name="Cube376_col" type="StaticBody" parent="Cube376" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube376/Cube376_col" index="0"]
 shape = SubResource( 374 )
 
-[node name="Cube377" parent="." index="374"]
-material/0 = null
-
 [node name="Cube377_col" type="StaticBody" parent="Cube377" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube377/Cube377_col" index="0"]
 shape = SubResource( 375 )
-
-[node name="Cube378" parent="." index="375"]
-material/0 = null
 
 [node name="Cube378_col" type="StaticBody" parent="Cube378" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube378/Cube378_col" index="0"]
 shape = SubResource( 376 )
 
-[node name="Cube379" parent="." index="376"]
-material/0 = null
-
 [node name="Cube379_col" type="StaticBody" parent="Cube379" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube379/Cube379_col" index="0"]
 shape = SubResource( 377 )
-
-[node name="Cube380" parent="." index="377"]
-material/0 = null
 
 [node name="Cube380_col" type="StaticBody" parent="Cube380" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube380/Cube380_col" index="0"]
 shape = SubResource( 378 )
 
-[node name="Cube381" parent="." index="378"]
-material/0 = null
-
 [node name="Cube381_col" type="StaticBody" parent="Cube381" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube381/Cube381_col" index="0"]
 shape = SubResource( 379 )
-
-[node name="Cube382" parent="." index="379"]
-material/0 = null
 
 [node name="Cube382_col" type="StaticBody" parent="Cube382" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube382/Cube382_col" index="0"]
 shape = SubResource( 380 )
 
-[node name="Cube383" parent="." index="380"]
-material/0 = null
-
 [node name="Cube383_col" type="StaticBody" parent="Cube383" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube383/Cube383_col" index="0"]
 shape = SubResource( 381 )
-
-[node name="Cube384" parent="." index="381"]
-material/0 = null
 
 [node name="Cube384_col" type="StaticBody" parent="Cube384" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube384/Cube384_col" index="0"]
 shape = SubResource( 382 )
 
-[node name="Cube385" parent="." index="382"]
-material/0 = null
-
 [node name="Cube385_col" type="StaticBody" parent="Cube385" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube385/Cube385_col" index="0"]
 shape = SubResource( 383 )
-
-[node name="Cube386" parent="." index="383"]
-material/0 = null
 
 [node name="Cube386_col" type="StaticBody" parent="Cube386" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube386/Cube386_col" index="0"]
 shape = SubResource( 384 )
 
-[node name="Cube387" parent="." index="384"]
-material/0 = null
-
 [node name="Cube387_col" type="StaticBody" parent="Cube387" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube387/Cube387_col" index="0"]
 shape = SubResource( 385 )
-
-[node name="Cube388" parent="." index="385"]
-material/0 = null
 
 [node name="Cube388_col" type="StaticBody" parent="Cube388" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube388/Cube388_col" index="0"]
 shape = SubResource( 386 )
 
-[node name="Cube389" parent="." index="386"]
-material/0 = null
-
 [node name="Cube389_col" type="StaticBody" parent="Cube389" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube389/Cube389_col" index="0"]
 shape = SubResource( 387 )
-
-[node name="Cube390" parent="." index="387"]
-material/0 = null
 
 [node name="Cube390_col" type="StaticBody" parent="Cube390" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube390/Cube390_col" index="0"]
 shape = SubResource( 388 )
 
-[node name="Cube391" parent="." index="388"]
-material/0 = null
-
 [node name="Cube391_col" type="StaticBody" parent="Cube391" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube391/Cube391_col" index="0"]
 shape = SubResource( 389 )
-
-[node name="Cube392" parent="." index="389"]
-material/0 = null
 
 [node name="Cube392_col" type="StaticBody" parent="Cube392" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube392/Cube392_col" index="0"]
 shape = SubResource( 390 )
 
-[node name="Cube393" parent="." index="390"]
-material/0 = null
-
 [node name="Cube393_col" type="StaticBody" parent="Cube393" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube393/Cube393_col" index="0"]
 shape = SubResource( 391 )
-
-[node name="Cube394" parent="." index="391"]
-material/0 = null
 
 [node name="Cube394_col" type="StaticBody" parent="Cube394" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube394/Cube394_col" index="0"]
 shape = SubResource( 392 )
 
-[node name="Cube395" parent="." index="392"]
-material/0 = null
-
 [node name="Cube395_col" type="StaticBody" parent="Cube395" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube395/Cube395_col" index="0"]
 shape = SubResource( 393 )
 
-[node name="Cube396" parent="." index="393"]
-material/0 = null
-
 [node name="Cube396_col" type="StaticBody" parent="Cube396" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube396/Cube396_col" index="0"]
 shape = SubResource( 394 )
-
-[node name="Cube397" parent="." index="394"]
-material/0 = null
 
 [node name="Cube397_col" type="StaticBody" parent="Cube397" index="0"]
 
@@ -4962,1631 +3777,1022 @@ material/0 = null
 shape = SubResource( 395 )
 
 [node name="Cube398" parent="." index="395"]
-material/0 = null
+visible = false
 
 [node name="Cube398_col" type="StaticBody" parent="Cube398" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube398/Cube398_col" index="0"]
 shape = SubResource( 396 )
 
-[node name="Cube399" parent="." index="396"]
-material/0 = null
-
 [node name="Cube399_col" type="StaticBody" parent="Cube399" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube399/Cube399_col" index="0"]
 shape = SubResource( 397 )
-
-[node name="Cube400" parent="." index="397"]
-material/0 = null
 
 [node name="Cube400_col" type="StaticBody" parent="Cube400" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube400/Cube400_col" index="0"]
 shape = SubResource( 398 )
 
-[node name="Cube401" parent="." index="398"]
-material/0 = null
-
 [node name="Cube401_col" type="StaticBody" parent="Cube401" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube401/Cube401_col" index="0"]
 shape = SubResource( 399 )
-
-[node name="Cube402" parent="." index="399"]
-material/0 = null
 
 [node name="Cube402_col" type="StaticBody" parent="Cube402" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube402/Cube402_col" index="0"]
 shape = SubResource( 400 )
 
-[node name="Cube403" parent="." index="400"]
-material/0 = null
-
 [node name="Cube403_col" type="StaticBody" parent="Cube403" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube403/Cube403_col" index="0"]
 shape = SubResource( 401 )
-
-[node name="Cube406" parent="." index="401"]
-material/0 = null
 
 [node name="Cube406_col" type="StaticBody" parent="Cube406" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube406/Cube406_col" index="0"]
 shape = SubResource( 402 )
 
-[node name="Cube407" parent="." index="402"]
-material/0 = null
-
 [node name="Cube407_col" type="StaticBody" parent="Cube407" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube407/Cube407_col" index="0"]
 shape = SubResource( 403 )
-
-[node name="Cube408" parent="." index="403"]
-material/0 = null
 
 [node name="Cube408_col" type="StaticBody" parent="Cube408" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube408/Cube408_col" index="0"]
 shape = SubResource( 404 )
 
-[node name="Cube409" parent="." index="404"]
-material/0 = null
-
 [node name="Cube409_col" type="StaticBody" parent="Cube409" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube409/Cube409_col" index="0"]
 shape = SubResource( 405 )
-
-[node name="Cube411" parent="." index="405"]
-material/0 = null
 
 [node name="Cube411_col" type="StaticBody" parent="Cube411" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube411/Cube411_col" index="0"]
 shape = SubResource( 406 )
 
-[node name="Cube412" parent="." index="406"]
-material/0 = null
-
 [node name="Cube412_col" type="StaticBody" parent="Cube412" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube412/Cube412_col" index="0"]
 shape = SubResource( 407 )
-
-[node name="Cube413" parent="." index="407"]
-material/0 = null
 
 [node name="Cube413_col" type="StaticBody" parent="Cube413" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube413/Cube413_col" index="0"]
 shape = SubResource( 408 )
 
-[node name="Cube414" parent="." index="408"]
-material/0 = null
-
 [node name="Cube414_col" type="StaticBody" parent="Cube414" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube414/Cube414_col" index="0"]
 shape = SubResource( 409 )
-
-[node name="Cube415" parent="." index="409"]
-material/0 = null
 
 [node name="Cube415_col" type="StaticBody" parent="Cube415" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube415/Cube415_col" index="0"]
 shape = SubResource( 410 )
 
-[node name="Cube416" parent="." index="410"]
-material/0 = null
-
 [node name="Cube416_col" type="StaticBody" parent="Cube416" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube416/Cube416_col" index="0"]
 shape = SubResource( 411 )
-
-[node name="Cube417" parent="." index="411"]
-material/0 = null
 
 [node name="Cube417_col" type="StaticBody" parent="Cube417" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube417/Cube417_col" index="0"]
 shape = SubResource( 412 )
 
-[node name="Cube418" parent="." index="412"]
-material/0 = null
-
 [node name="Cube418_col" type="StaticBody" parent="Cube418" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube418/Cube418_col" index="0"]
 shape = SubResource( 413 )
-
-[node name="Cube419" parent="." index="413"]
-material/0 = null
 
 [node name="Cube419_col" type="StaticBody" parent="Cube419" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube419/Cube419_col" index="0"]
 shape = SubResource( 414 )
 
-[node name="Cube420" parent="." index="414"]
-material/0 = null
-
 [node name="Cube420_col" type="StaticBody" parent="Cube420" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube420/Cube420_col" index="0"]
 shape = SubResource( 415 )
-
-[node name="Cube421" parent="." index="415"]
-material/0 = null
 
 [node name="Cube421_col" type="StaticBody" parent="Cube421" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube421/Cube421_col" index="0"]
 shape = SubResource( 416 )
 
-[node name="Cube422" parent="." index="416"]
-material/0 = null
-
 [node name="Cube422_col" type="StaticBody" parent="Cube422" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube422/Cube422_col" index="0"]
 shape = SubResource( 417 )
-
-[node name="Cube423" parent="." index="417"]
-material/0 = null
 
 [node name="Cube423_col" type="StaticBody" parent="Cube423" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube423/Cube423_col" index="0"]
 shape = SubResource( 418 )
 
-[node name="Cube424" parent="." index="418"]
-material/0 = null
-
 [node name="Cube424_col" type="StaticBody" parent="Cube424" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube424/Cube424_col" index="0"]
 shape = SubResource( 419 )
-
-[node name="Cube425" parent="." index="419"]
-material/0 = null
 
 [node name="Cube425_col" type="StaticBody" parent="Cube425" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube425/Cube425_col" index="0"]
 shape = SubResource( 420 )
 
-[node name="Cube426" parent="." index="420"]
-material/0 = null
-
 [node name="Cube426_col" type="StaticBody" parent="Cube426" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube426/Cube426_col" index="0"]
 shape = SubResource( 421 )
-
-[node name="Cube427" parent="." index="421"]
-material/0 = null
 
 [node name="Cube427_col" type="StaticBody" parent="Cube427" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube427/Cube427_col" index="0"]
 shape = SubResource( 422 )
 
-[node name="Cube428" parent="." index="422"]
-material/0 = null
-
 [node name="Cube428_col" type="StaticBody" parent="Cube428" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube428/Cube428_col" index="0"]
 shape = SubResource( 423 )
-
-[node name="Cube429" parent="." index="423"]
-material/0 = null
 
 [node name="Cube429_col" type="StaticBody" parent="Cube429" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube429/Cube429_col" index="0"]
 shape = SubResource( 424 )
 
-[node name="Cube430" parent="." index="424"]
-material/0 = null
-
 [node name="Cube430_col" type="StaticBody" parent="Cube430" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube430/Cube430_col" index="0"]
 shape = SubResource( 425 )
-
-[node name="Cube431" parent="." index="425"]
-material/0 = null
 
 [node name="Cube431_col" type="StaticBody" parent="Cube431" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube431/Cube431_col" index="0"]
 shape = SubResource( 426 )
 
-[node name="Cube433" parent="." index="426"]
-material/0 = null
-
 [node name="Cube433_col" type="StaticBody" parent="Cube433" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube433/Cube433_col" index="0"]
 shape = SubResource( 427 )
-
-[node name="Cube434" parent="." index="427"]
-material/0 = null
 
 [node name="Cube434_col" type="StaticBody" parent="Cube434" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube434/Cube434_col" index="0"]
 shape = SubResource( 428 )
 
-[node name="Cube435" parent="." index="428"]
-material/0 = null
-
 [node name="Cube435_col" type="StaticBody" parent="Cube435" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube435/Cube435_col" index="0"]
 shape = SubResource( 429 )
-
-[node name="Cube436" parent="." index="429"]
-material/0 = null
 
 [node name="Cube436_col" type="StaticBody" parent="Cube436" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube436/Cube436_col" index="0"]
 shape = SubResource( 430 )
 
-[node name="Cube437" parent="." index="430"]
-material/0 = null
-
 [node name="Cube437_col" type="StaticBody" parent="Cube437" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube437/Cube437_col" index="0"]
 shape = SubResource( 431 )
-
-[node name="Cube438" parent="." index="431"]
-material/0 = null
 
 [node name="Cube438_col" type="StaticBody" parent="Cube438" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube438/Cube438_col" index="0"]
 shape = SubResource( 432 )
 
-[node name="Cube439" parent="." index="432"]
-material/0 = null
-
 [node name="Cube439_col" type="StaticBody" parent="Cube439" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube439/Cube439_col" index="0"]
 shape = SubResource( 433 )
-
-[node name="Cube440" parent="." index="433"]
-material/0 = null
 
 [node name="Cube440_col" type="StaticBody" parent="Cube440" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube440/Cube440_col" index="0"]
 shape = SubResource( 434 )
 
-[node name="Cube441" parent="." index="434"]
-material/0 = null
-
 [node name="Cube441_col" type="StaticBody" parent="Cube441" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube441/Cube441_col" index="0"]
 shape = SubResource( 435 )
-
-[node name="Cube443" parent="." index="435"]
-material/0 = null
 
 [node name="Cube443_col" type="StaticBody" parent="Cube443" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube443/Cube443_col" index="0"]
 shape = SubResource( 436 )
 
-[node name="Cube444" parent="." index="436"]
-material/0 = null
-
 [node name="Cube444_col" type="StaticBody" parent="Cube444" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube444/Cube444_col" index="0"]
 shape = SubResource( 437 )
-
-[node name="Cube445" parent="." index="437"]
-material/0 = null
 
 [node name="Cube445_col" type="StaticBody" parent="Cube445" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube445/Cube445_col" index="0"]
 shape = SubResource( 438 )
 
-[node name="Cube446" parent="." index="438"]
-material/0 = null
-
 [node name="Cube446_col" type="StaticBody" parent="Cube446" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube446/Cube446_col" index="0"]
 shape = SubResource( 439 )
-
-[node name="Cube447" parent="." index="439"]
-material/0 = null
 
 [node name="Cube447_col" type="StaticBody" parent="Cube447" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube447/Cube447_col" index="0"]
 shape = SubResource( 440 )
 
-[node name="Cube448" parent="." index="440"]
-material/0 = null
-
 [node name="Cube448_col" type="StaticBody" parent="Cube448" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube448/Cube448_col" index="0"]
 shape = SubResource( 441 )
-
-[node name="Cube449" parent="." index="441"]
-material/0 = null
 
 [node name="Cube449_col" type="StaticBody" parent="Cube449" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube449/Cube449_col" index="0"]
 shape = SubResource( 442 )
 
-[node name="Cube450" parent="." index="442"]
-material/0 = null
-
 [node name="Cube450_col" type="StaticBody" parent="Cube450" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube450/Cube450_col" index="0"]
 shape = SubResource( 443 )
-
-[node name="Cube452" parent="." index="443"]
-material/0 = null
 
 [node name="Cube452_col" type="StaticBody" parent="Cube452" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube452/Cube452_col" index="0"]
 shape = SubResource( 444 )
 
-[node name="Cube453" parent="." index="444"]
-material/0 = null
-
 [node name="Cube453_col" type="StaticBody" parent="Cube453" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube453/Cube453_col" index="0"]
 shape = SubResource( 445 )
-
-[node name="Cube454" parent="." index="445"]
-material/0 = null
 
 [node name="Cube454_col" type="StaticBody" parent="Cube454" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube454/Cube454_col" index="0"]
 shape = SubResource( 446 )
 
-[node name="Cube455" parent="." index="446"]
-material/0 = null
-
 [node name="Cube455_col" type="StaticBody" parent="Cube455" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube455/Cube455_col" index="0"]
 shape = SubResource( 447 )
-
-[node name="Cube457" parent="." index="447"]
-material/0 = null
 
 [node name="Cube457_col" type="StaticBody" parent="Cube457" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube457/Cube457_col" index="0"]
 shape = SubResource( 448 )
 
-[node name="Cube458" parent="." index="448"]
-material/0 = null
-
 [node name="Cube458_col" type="StaticBody" parent="Cube458" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube458/Cube458_col" index="0"]
 shape = SubResource( 449 )
-
-[node name="Cube459" parent="." index="449"]
-material/0 = null
 
 [node name="Cube459_col" type="StaticBody" parent="Cube459" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube459/Cube459_col" index="0"]
 shape = SubResource( 450 )
 
-[node name="Cube460" parent="." index="450"]
-material/0 = null
-
 [node name="Cube460_col" type="StaticBody" parent="Cube460" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube460/Cube460_col" index="0"]
 shape = SubResource( 451 )
-
-[node name="Cube461" parent="." index="451"]
-material/0 = null
 
 [node name="Cube461_col" type="StaticBody" parent="Cube461" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube461/Cube461_col" index="0"]
 shape = SubResource( 452 )
 
-[node name="Cube462" parent="." index="452"]
-material/0 = null
-
 [node name="Cube462_col" type="StaticBody" parent="Cube462" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube462/Cube462_col" index="0"]
 shape = SubResource( 453 )
-
-[node name="Cube463" parent="." index="453"]
-material/0 = null
 
 [node name="Cube463_col" type="StaticBody" parent="Cube463" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube463/Cube463_col" index="0"]
 shape = SubResource( 454 )
 
-[node name="Cube464" parent="." index="454"]
-material/0 = null
-
 [node name="Cube464_col" type="StaticBody" parent="Cube464" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube464/Cube464_col" index="0"]
 shape = SubResource( 455 )
-
-[node name="Cube465" parent="." index="455"]
-material/0 = null
 
 [node name="Cube465_col" type="StaticBody" parent="Cube465" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube465/Cube465_col" index="0"]
 shape = SubResource( 456 )
 
-[node name="Cube466" parent="." index="456"]
-material/0 = null
-
 [node name="Cube466_col" type="StaticBody" parent="Cube466" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube466/Cube466_col" index="0"]
 shape = SubResource( 457 )
-
-[node name="Cube467" parent="." index="457"]
-material/0 = null
 
 [node name="Cube467_col" type="StaticBody" parent="Cube467" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube467/Cube467_col" index="0"]
 shape = SubResource( 458 )
 
-[node name="Cube468" parent="." index="458"]
-material/0 = null
-
 [node name="Cube468_col" type="StaticBody" parent="Cube468" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube468/Cube468_col" index="0"]
 shape = SubResource( 459 )
-
-[node name="Cube469" parent="." index="459"]
-material/0 = null
 
 [node name="Cube469_col" type="StaticBody" parent="Cube469" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube469/Cube469_col" index="0"]
 shape = SubResource( 460 )
 
-[node name="Cube470" parent="." index="460"]
-material/0 = null
-
 [node name="Cube470_col" type="StaticBody" parent="Cube470" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube470/Cube470_col" index="0"]
 shape = SubResource( 461 )
-
-[node name="Cube471" parent="." index="461"]
-material/0 = null
 
 [node name="Cube471_col" type="StaticBody" parent="Cube471" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube471/Cube471_col" index="0"]
 shape = SubResource( 462 )
 
-[node name="Cube472" parent="." index="462"]
-material/0 = null
-
 [node name="Cube472_col" type="StaticBody" parent="Cube472" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube472/Cube472_col" index="0"]
 shape = SubResource( 463 )
-
-[node name="Cube473" parent="." index="463"]
-material/0 = null
 
 [node name="Cube473_col" type="StaticBody" parent="Cube473" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube473/Cube473_col" index="0"]
 shape = SubResource( 464 )
 
-[node name="Cube474" parent="." index="464"]
-material/0 = null
-
 [node name="Cube474_col" type="StaticBody" parent="Cube474" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube474/Cube474_col" index="0"]
 shape = SubResource( 465 )
-
-[node name="Cube475" parent="." index="465"]
-material/0 = null
 
 [node name="Cube475_col" type="StaticBody" parent="Cube475" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube475/Cube475_col" index="0"]
 shape = SubResource( 466 )
 
-[node name="Cube476" parent="." index="466"]
-material/0 = null
-
 [node name="Cube476_col" type="StaticBody" parent="Cube476" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube476/Cube476_col" index="0"]
 shape = SubResource( 467 )
-
-[node name="Cube477" parent="." index="467"]
-material/0 = null
 
 [node name="Cube477_col" type="StaticBody" parent="Cube477" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube477/Cube477_col" index="0"]
 shape = SubResource( 468 )
 
-[node name="Cube478" parent="." index="468"]
-material/0 = null
-
 [node name="Cube478_col" type="StaticBody" parent="Cube478" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube478/Cube478_col" index="0"]
 shape = SubResource( 469 )
-
-[node name="Cube479" parent="." index="469"]
-material/0 = null
 
 [node name="Cube479_col" type="StaticBody" parent="Cube479" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube479/Cube479_col" index="0"]
 shape = SubResource( 470 )
 
-[node name="Cube480" parent="." index="470"]
-material/0 = null
-
 [node name="Cube480_col" type="StaticBody" parent="Cube480" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube480/Cube480_col" index="0"]
 shape = SubResource( 471 )
-
-[node name="Cube481" parent="." index="471"]
-material/0 = null
 
 [node name="Cube481_col" type="StaticBody" parent="Cube481" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube481/Cube481_col" index="0"]
 shape = SubResource( 472 )
 
-[node name="Cube482" parent="." index="472"]
-material/0 = null
-
 [node name="Cube482_col" type="StaticBody" parent="Cube482" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube482/Cube482_col" index="0"]
 shape = SubResource( 473 )
-
-[node name="Cube483" parent="." index="473"]
-material/0 = null
 
 [node name="Cube483_col" type="StaticBody" parent="Cube483" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube483/Cube483_col" index="0"]
 shape = SubResource( 474 )
 
-[node name="Cube484" parent="." index="474"]
-material/0 = null
-
 [node name="Cube484_col" type="StaticBody" parent="Cube484" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube484/Cube484_col" index="0"]
 shape = SubResource( 475 )
-
-[node name="Cube485" parent="." index="475"]
-material/0 = null
 
 [node name="Cube485_col" type="StaticBody" parent="Cube485" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube485/Cube485_col" index="0"]
 shape = SubResource( 476 )
 
-[node name="Cube486" parent="." index="476"]
-material/0 = null
-
 [node name="Cube486_col" type="StaticBody" parent="Cube486" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube486/Cube486_col" index="0"]
 shape = SubResource( 477 )
-
-[node name="Cube487" parent="." index="477"]
-material/0 = null
 
 [node name="Cube487_col" type="StaticBody" parent="Cube487" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube487/Cube487_col" index="0"]
 shape = SubResource( 478 )
 
-[node name="Cube488" parent="." index="478"]
-material/0 = null
-
 [node name="Cube488_col" type="StaticBody" parent="Cube488" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube488/Cube488_col" index="0"]
 shape = SubResource( 479 )
-
-[node name="Cube489" parent="." index="479"]
-material/0 = null
 
 [node name="Cube489_col" type="StaticBody" parent="Cube489" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube489/Cube489_col" index="0"]
 shape = SubResource( 480 )
 
-[node name="Cube490" parent="." index="480"]
-material/0 = null
-
 [node name="Cube490_col" type="StaticBody" parent="Cube490" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube490/Cube490_col" index="0"]
 shape = SubResource( 481 )
-
-[node name="Cube491" parent="." index="481"]
-material/0 = null
 
 [node name="Cube491_col" type="StaticBody" parent="Cube491" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube491/Cube491_col" index="0"]
 shape = SubResource( 482 )
 
-[node name="Cube492" parent="." index="482"]
-material/0 = null
-
 [node name="Cube492_col" type="StaticBody" parent="Cube492" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube492/Cube492_col" index="0"]
 shape = SubResource( 483 )
-
-[node name="Cube493" parent="." index="483"]
-material/0 = null
 
 [node name="Cube493_col" type="StaticBody" parent="Cube493" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube493/Cube493_col" index="0"]
 shape = SubResource( 484 )
 
-[node name="Cube494" parent="." index="484"]
-material/0 = null
-
 [node name="Cube494_col" type="StaticBody" parent="Cube494" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube494/Cube494_col" index="0"]
 shape = SubResource( 485 )
-
-[node name="Cube495" parent="." index="485"]
-material/0 = null
 
 [node name="Cube495_col" type="StaticBody" parent="Cube495" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube495/Cube495_col" index="0"]
 shape = SubResource( 486 )
 
-[node name="Cube496" parent="." index="486"]
-material/0 = null
-
 [node name="Cube496_col" type="StaticBody" parent="Cube496" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube496/Cube496_col" index="0"]
 shape = SubResource( 487 )
-
-[node name="Cube497" parent="." index="487"]
-material/0 = null
 
 [node name="Cube497_col" type="StaticBody" parent="Cube497" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube497/Cube497_col" index="0"]
 shape = SubResource( 488 )
 
-[node name="Cube498" parent="." index="488"]
-material/0 = null
-
 [node name="Cube498_col" type="StaticBody" parent="Cube498" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube498/Cube498_col" index="0"]
 shape = SubResource( 489 )
-
-[node name="Cube499" parent="." index="489"]
-material/0 = null
 
 [node name="Cube499_col" type="StaticBody" parent="Cube499" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube499/Cube499_col" index="0"]
 shape = SubResource( 490 )
 
-[node name="Cube500" parent="." index="490"]
-material/0 = null
-
 [node name="Cube500_col" type="StaticBody" parent="Cube500" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube500/Cube500_col" index="0"]
 shape = SubResource( 491 )
-
-[node name="Cube501" parent="." index="491"]
-material/0 = null
 
 [node name="Cube501_col" type="StaticBody" parent="Cube501" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube501/Cube501_col" index="0"]
 shape = SubResource( 492 )
 
-[node name="Cube502" parent="." index="492"]
-material/0 = null
-
 [node name="Cube502_col" type="StaticBody" parent="Cube502" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube502/Cube502_col" index="0"]
 shape = SubResource( 493 )
-
-[node name="Cube503" parent="." index="493"]
-material/0 = null
 
 [node name="Cube503_col" type="StaticBody" parent="Cube503" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube503/Cube503_col" index="0"]
 shape = SubResource( 494 )
 
-[node name="Cube504" parent="." index="494"]
-material/0 = null
-
 [node name="Cube504_col" type="StaticBody" parent="Cube504" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube504/Cube504_col" index="0"]
 shape = SubResource( 495 )
-
-[node name="Cube505" parent="." index="495"]
-material/0 = null
 
 [node name="Cube505_col" type="StaticBody" parent="Cube505" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube505/Cube505_col" index="0"]
 shape = SubResource( 496 )
 
-[node name="Cube506" parent="." index="496"]
-material/0 = null
-
 [node name="Cube506_col" type="StaticBody" parent="Cube506" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube506/Cube506_col" index="0"]
 shape = SubResource( 497 )
-
-[node name="Cube507" parent="." index="497"]
-material/0 = null
 
 [node name="Cube507_col" type="StaticBody" parent="Cube507" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube507/Cube507_col" index="0"]
 shape = SubResource( 498 )
 
-[node name="Cube508" parent="." index="498"]
-material/0 = null
-
 [node name="Cube508_col" type="StaticBody" parent="Cube508" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube508/Cube508_col" index="0"]
 shape = SubResource( 499 )
-
-[node name="Cube509" parent="." index="499"]
-material/0 = null
 
 [node name="Cube509_col" type="StaticBody" parent="Cube509" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube509/Cube509_col" index="0"]
 shape = SubResource( 500 )
 
-[node name="Cube510" parent="." index="500"]
-material/0 = null
-
 [node name="Cube510_col" type="StaticBody" parent="Cube510" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube510/Cube510_col" index="0"]
 shape = SubResource( 501 )
-
-[node name="Cube511" parent="." index="501"]
-material/0 = null
 
 [node name="Cube511_col" type="StaticBody" parent="Cube511" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube511/Cube511_col" index="0"]
 shape = SubResource( 502 )
 
-[node name="Cube512" parent="." index="502"]
-material/0 = null
-
 [node name="Cube512_col" type="StaticBody" parent="Cube512" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube512/Cube512_col" index="0"]
 shape = SubResource( 503 )
-
-[node name="Cube513" parent="." index="503"]
-material/0 = null
 
 [node name="Cube513_col" type="StaticBody" parent="Cube513" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube513/Cube513_col" index="0"]
 shape = SubResource( 504 )
 
-[node name="Cube514" parent="." index="504"]
-material/0 = null
-
 [node name="Cube514_col" type="StaticBody" parent="Cube514" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube514/Cube514_col" index="0"]
 shape = SubResource( 505 )
-
-[node name="Cube515" parent="." index="505"]
-material/0 = null
 
 [node name="Cube515_col" type="StaticBody" parent="Cube515" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube515/Cube515_col" index="0"]
 shape = SubResource( 506 )
 
-[node name="Cube516" parent="." index="506"]
-material/0 = null
-
 [node name="Cube516_col" type="StaticBody" parent="Cube516" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube516/Cube516_col" index="0"]
 shape = SubResource( 507 )
-
-[node name="Cube517" parent="." index="507"]
-material/0 = null
 
 [node name="Cube517_col" type="StaticBody" parent="Cube517" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube517/Cube517_col" index="0"]
 shape = SubResource( 508 )
 
-[node name="Cube518" parent="." index="508"]
-material/0 = null
-
 [node name="Cube518_col" type="StaticBody" parent="Cube518" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube518/Cube518_col" index="0"]
 shape = SubResource( 509 )
-
-[node name="Cube519" parent="." index="509"]
-material/0 = null
 
 [node name="Cube519_col" type="StaticBody" parent="Cube519" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube519/Cube519_col" index="0"]
 shape = SubResource( 510 )
 
-[node name="Cube520" parent="." index="510"]
-material/0 = null
-
 [node name="Cube520_col" type="StaticBody" parent="Cube520" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube520/Cube520_col" index="0"]
 shape = SubResource( 511 )
-
-[node name="Cube521" parent="." index="511"]
-material/0 = null
 
 [node name="Cube521_col" type="StaticBody" parent="Cube521" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube521/Cube521_col" index="0"]
 shape = SubResource( 512 )
 
-[node name="Cube522" parent="." index="512"]
-material/0 = null
-
 [node name="Cube522_col" type="StaticBody" parent="Cube522" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube522/Cube522_col" index="0"]
 shape = SubResource( 513 )
-
-[node name="Cube523" parent="." index="513"]
-material/0 = null
 
 [node name="Cube523_col" type="StaticBody" parent="Cube523" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube523/Cube523_col" index="0"]
 shape = SubResource( 514 )
 
-[node name="Cube524" parent="." index="514"]
-material/0 = null
-
 [node name="Cube524_col" type="StaticBody" parent="Cube524" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube524/Cube524_col" index="0"]
 shape = SubResource( 515 )
-
-[node name="Cube525" parent="." index="515"]
-material/0 = null
 
 [node name="Cube525_col" type="StaticBody" parent="Cube525" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube525/Cube525_col" index="0"]
 shape = SubResource( 516 )
 
-[node name="Cube526" parent="." index="516"]
-material/0 = null
-
 [node name="Cube526_col" type="StaticBody" parent="Cube526" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube526/Cube526_col" index="0"]
 shape = SubResource( 517 )
-
-[node name="Cube527" parent="." index="517"]
-material/0 = null
 
 [node name="Cube527_col" type="StaticBody" parent="Cube527" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube527/Cube527_col" index="0"]
 shape = SubResource( 518 )
 
-[node name="Cube528" parent="." index="518"]
-material/0 = null
-
 [node name="Cube528_col" type="StaticBody" parent="Cube528" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube528/Cube528_col" index="0"]
 shape = SubResource( 519 )
-
-[node name="Cube529" parent="." index="519"]
-material/0 = null
 
 [node name="Cube529_col" type="StaticBody" parent="Cube529" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube529/Cube529_col" index="0"]
 shape = SubResource( 520 )
 
-[node name="Cube530" parent="." index="520"]
-material/0 = null
-
 [node name="Cube530_col" type="StaticBody" parent="Cube530" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube530/Cube530_col" index="0"]
 shape = SubResource( 521 )
-
-[node name="Cube531" parent="." index="521"]
-material/0 = null
 
 [node name="Cube531_col" type="StaticBody" parent="Cube531" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube531/Cube531_col" index="0"]
 shape = SubResource( 522 )
 
-[node name="Cube532" parent="." index="522"]
-material/0 = null
-
 [node name="Cube532_col" type="StaticBody" parent="Cube532" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube532/Cube532_col" index="0"]
 shape = SubResource( 523 )
-
-[node name="Cube533" parent="." index="523"]
-material/0 = null
 
 [node name="Cube533_col" type="StaticBody" parent="Cube533" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube533/Cube533_col" index="0"]
 shape = SubResource( 524 )
 
-[node name="Cube534" parent="." index="524"]
-material/0 = null
-
 [node name="Cube534_col" type="StaticBody" parent="Cube534" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube534/Cube534_col" index="0"]
 shape = SubResource( 525 )
-
-[node name="Cube535" parent="." index="525"]
-material/0 = null
 
 [node name="Cube535_col" type="StaticBody" parent="Cube535" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube535/Cube535_col" index="0"]
 shape = SubResource( 526 )
 
-[node name="Cube536" parent="." index="526"]
-material/0 = null
-
 [node name="Cube536_col" type="StaticBody" parent="Cube536" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube536/Cube536_col" index="0"]
 shape = SubResource( 527 )
-
-[node name="Cube537" parent="." index="527"]
-material/0 = null
 
 [node name="Cube537_col" type="StaticBody" parent="Cube537" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube537/Cube537_col" index="0"]
 shape = SubResource( 528 )
 
-[node name="Cube538" parent="." index="528"]
-material/0 = null
-
 [node name="Cube538_col" type="StaticBody" parent="Cube538" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube538/Cube538_col" index="0"]
 shape = SubResource( 529 )
-
-[node name="Cube539" parent="." index="529"]
-material/0 = null
 
 [node name="Cube539_col" type="StaticBody" parent="Cube539" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube539/Cube539_col" index="0"]
 shape = SubResource( 530 )
 
-[node name="Cube540" parent="." index="530"]
-material/0 = null
-
 [node name="Cube540_col" type="StaticBody" parent="Cube540" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube540/Cube540_col" index="0"]
 shape = SubResource( 531 )
-
-[node name="Cube541" parent="." index="531"]
-material/0 = null
 
 [node name="Cube541_col" type="StaticBody" parent="Cube541" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube541/Cube541_col" index="0"]
 shape = SubResource( 532 )
 
-[node name="Cube542" parent="." index="532"]
-material/0 = null
-
 [node name="Cube542_col" type="StaticBody" parent="Cube542" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube542/Cube542_col" index="0"]
 shape = SubResource( 533 )
-
-[node name="Cube543" parent="." index="533"]
-material/0 = null
 
 [node name="Cube543_col" type="StaticBody" parent="Cube543" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube543/Cube543_col" index="0"]
 shape = SubResource( 534 )
 
-[node name="Cube544" parent="." index="534"]
-material/0 = null
-
 [node name="Cube544_col" type="StaticBody" parent="Cube544" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube544/Cube544_col" index="0"]
 shape = SubResource( 535 )
-
-[node name="Cube545" parent="." index="535"]
-material/0 = null
 
 [node name="Cube545_col" type="StaticBody" parent="Cube545" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube545/Cube545_col" index="0"]
 shape = SubResource( 536 )
 
-[node name="Cube546" parent="." index="536"]
-material/0 = null
-
 [node name="Cube546_col" type="StaticBody" parent="Cube546" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube546/Cube546_col" index="0"]
 shape = SubResource( 537 )
-
-[node name="Cube547" parent="." index="537"]
-material/0 = null
 
 [node name="Cube547_col" type="StaticBody" parent="Cube547" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube547/Cube547_col" index="0"]
 shape = SubResource( 538 )
 
-[node name="Cube548" parent="." index="538"]
-material/0 = null
-
 [node name="Cube548_col" type="StaticBody" parent="Cube548" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube548/Cube548_col" index="0"]
 shape = SubResource( 539 )
-
-[node name="Cube549" parent="." index="539"]
-material/0 = null
 
 [node name="Cube549_col" type="StaticBody" parent="Cube549" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube549/Cube549_col" index="0"]
 shape = SubResource( 540 )
 
-[node name="Cube550" parent="." index="540"]
-material/0 = null
-
 [node name="Cube550_col" type="StaticBody" parent="Cube550" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube550/Cube550_col" index="0"]
 shape = SubResource( 541 )
-
-[node name="Cube551" parent="." index="541"]
-material/0 = null
 
 [node name="Cube551_col" type="StaticBody" parent="Cube551" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube551/Cube551_col" index="0"]
 shape = SubResource( 542 )
 
-[node name="Cube552" parent="." index="542"]
-material/0 = null
-
 [node name="Cube552_col" type="StaticBody" parent="Cube552" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube552/Cube552_col" index="0"]
 shape = SubResource( 543 )
-
-[node name="Cube553" parent="." index="543"]
-material/0 = null
 
 [node name="Cube553_col" type="StaticBody" parent="Cube553" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube553/Cube553_col" index="0"]
 shape = SubResource( 544 )
 
-[node name="Cube554" parent="." index="544"]
-material/0 = null
-
 [node name="Cube554_col" type="StaticBody" parent="Cube554" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube554/Cube554_col" index="0"]
 shape = SubResource( 545 )
-
-[node name="Cube555" parent="." index="545"]
-material/0 = null
 
 [node name="Cube555_col" type="StaticBody" parent="Cube555" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube555/Cube555_col" index="0"]
 shape = SubResource( 546 )
 
-[node name="Cube556" parent="." index="546"]
-material/0 = null
-
 [node name="Cube556_col" type="StaticBody" parent="Cube556" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube556/Cube556_col" index="0"]
 shape = SubResource( 547 )
-
-[node name="Cube557" parent="." index="547"]
-material/0 = null
 
 [node name="Cube557_col" type="StaticBody" parent="Cube557" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube557/Cube557_col" index="0"]
 shape = SubResource( 548 )
 
-[node name="Cube558" parent="." index="548"]
-material/0 = null
-
 [node name="Cube558_col" type="StaticBody" parent="Cube558" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube558/Cube558_col" index="0"]
 shape = SubResource( 549 )
-
-[node name="Cube559" parent="." index="549"]
-material/0 = null
 
 [node name="Cube559_col" type="StaticBody" parent="Cube559" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube559/Cube559_col" index="0"]
 shape = SubResource( 550 )
 
-[node name="Cube560" parent="." index="550"]
-material/0 = null
-
 [node name="Cube560_col" type="StaticBody" parent="Cube560" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube560/Cube560_col" index="0"]
 shape = SubResource( 551 )
-
-[node name="Cube561" parent="." index="551"]
-material/0 = null
 
 [node name="Cube561_col" type="StaticBody" parent="Cube561" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube561/Cube561_col" index="0"]
 shape = SubResource( 552 )
 
-[node name="Cube562" parent="." index="552"]
-material/0 = null
-
 [node name="Cube562_col" type="StaticBody" parent="Cube562" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube562/Cube562_col" index="0"]
 shape = SubResource( 553 )
-
-[node name="Cube563" parent="." index="553"]
-material/0 = null
 
 [node name="Cube563_col" type="StaticBody" parent="Cube563" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube563/Cube563_col" index="0"]
 shape = SubResource( 554 )
 
-[node name="Cube564" parent="." index="554"]
-material/0 = null
-
 [node name="Cube564_col" type="StaticBody" parent="Cube564" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube564/Cube564_col" index="0"]
 shape = SubResource( 555 )
-
-[node name="Cube565" parent="." index="555"]
-material/0 = null
 
 [node name="Cube565_col" type="StaticBody" parent="Cube565" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube565/Cube565_col" index="0"]
 shape = SubResource( 556 )
 
-[node name="Cube566" parent="." index="556"]
-material/0 = null
-
 [node name="Cube566_col" type="StaticBody" parent="Cube566" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube566/Cube566_col" index="0"]
 shape = SubResource( 557 )
-
-[node name="Cube567" parent="." index="557"]
-material/0 = null
 
 [node name="Cube567_col" type="StaticBody" parent="Cube567" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube567/Cube567_col" index="0"]
 shape = SubResource( 558 )
 
-[node name="Cube568" parent="." index="558"]
-material/0 = null
-
 [node name="Cube568_col" type="StaticBody" parent="Cube568" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube568/Cube568_col" index="0"]
 shape = SubResource( 559 )
-
-[node name="Cube569" parent="." index="559"]
-material/0 = null
 
 [node name="Cube569_col" type="StaticBody" parent="Cube569" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube569/Cube569_col" index="0"]
 shape = SubResource( 560 )
 
-[node name="Cube570" parent="." index="560"]
-material/0 = null
-
 [node name="Cube570_col" type="StaticBody" parent="Cube570" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube570/Cube570_col" index="0"]
 shape = SubResource( 561 )
-
-[node name="Cube571" parent="." index="561"]
-material/0 = null
 
 [node name="Cube571_col" type="StaticBody" parent="Cube571" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube571/Cube571_col" index="0"]
 shape = SubResource( 562 )
 
-[node name="Cube572" parent="." index="562"]
-material/0 = null
-
 [node name="Cube572_col" type="StaticBody" parent="Cube572" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube572/Cube572_col" index="0"]
 shape = SubResource( 563 )
-
-[node name="Cube573" parent="." index="563"]
-material/0 = null
 
 [node name="Cube573_col" type="StaticBody" parent="Cube573" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube573/Cube573_col" index="0"]
 shape = SubResource( 564 )
 
-[node name="Cube574" parent="." index="564"]
-material/0 = null
-
 [node name="Cube574_col" type="StaticBody" parent="Cube574" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube574/Cube574_col" index="0"]
 shape = SubResource( 565 )
-
-[node name="Cube575" parent="." index="565"]
-material/0 = null
 
 [node name="Cube575_col" type="StaticBody" parent="Cube575" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube575/Cube575_col" index="0"]
 shape = SubResource( 566 )
 
-[node name="Cube576" parent="." index="566"]
-material/0 = null
-
 [node name="Cube576_col" type="StaticBody" parent="Cube576" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube576/Cube576_col" index="0"]
 shape = SubResource( 567 )
-
-[node name="Cube577" parent="." index="567"]
-material/0 = null
 
 [node name="Cube577_col" type="StaticBody" parent="Cube577" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube577/Cube577_col" index="0"]
 shape = SubResource( 568 )
 
-[node name="Cube578" parent="." index="568"]
-material/0 = null
-
 [node name="Cube578_col" type="StaticBody" parent="Cube578" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube578/Cube578_col" index="0"]
 shape = SubResource( 569 )
-
-[node name="Cube579" parent="." index="569"]
-material/0 = null
 
 [node name="Cube579_col" type="StaticBody" parent="Cube579" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube579/Cube579_col" index="0"]
 shape = SubResource( 570 )
 
-[node name="Cube580" parent="." index="570"]
-material/0 = null
-
 [node name="Cube580_col" type="StaticBody" parent="Cube580" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube580/Cube580_col" index="0"]
 shape = SubResource( 571 )
-
-[node name="Cube581" parent="." index="571"]
-material/0 = null
 
 [node name="Cube581_col" type="StaticBody" parent="Cube581" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube581/Cube581_col" index="0"]
 shape = SubResource( 572 )
 
-[node name="Cube582" parent="." index="572"]
-material/0 = null
-
 [node name="Cube582_col" type="StaticBody" parent="Cube582" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube582/Cube582_col" index="0"]
 shape = SubResource( 573 )
-
-[node name="Cube583" parent="." index="573"]
-material/0 = null
 
 [node name="Cube583_col" type="StaticBody" parent="Cube583" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube583/Cube583_col" index="0"]
 shape = SubResource( 574 )
 
-[node name="Cube677" parent="." index="574"]
-material/0 = null
-
 [node name="Cube677_col" type="StaticBody" parent="Cube677" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube677/Cube677_col" index="0"]
 shape = SubResource( 575 )
-
-[node name="Cube584" parent="." index="575"]
-material/0 = null
 
 [node name="Cube584_col" type="StaticBody" parent="Cube584" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube584/Cube584_col" index="0"]
 shape = SubResource( 576 )
 
-[node name="Cylinder035" parent="." index="576"]
-material/0 = null
-
 [node name="Cylinder035_col" type="StaticBody" parent="Cylinder035" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cylinder035/Cylinder035_col" index="0"]
 shape = SubResource( 577 )
-
-[node name="Cylinder045" parent="." index="577"]
-material/0 = null
 
 [node name="Cylinder045_col" type="StaticBody" parent="Cylinder045" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cylinder045/Cylinder045_col" index="0"]
 shape = SubResource( 578 )
 
-[node name="Cylinder046" parent="." index="578"]
-material/0 = null
-
 [node name="Cylinder046_col" type="StaticBody" parent="Cylinder046" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cylinder046/Cylinder046_col" index="0"]
 shape = SubResource( 579 )
-
-[node name="Cylinder047" parent="." index="579"]
-material/0 = null
 
 [node name="Cylinder047_col" type="StaticBody" parent="Cylinder047" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cylinder047/Cylinder047_col" index="0"]
 shape = SubResource( 580 )
 
-[node name="Cylinder048" parent="." index="580"]
-material/0 = null
-
 [node name="Cylinder048_col" type="StaticBody" parent="Cylinder048" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cylinder048/Cylinder048_col" index="0"]
 shape = SubResource( 581 )
-
-[node name="Cylinder049" parent="." index="581"]
-material/0 = null
 
 [node name="Cylinder049_col" type="StaticBody" parent="Cylinder049" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cylinder049/Cylinder049_col" index="0"]
 shape = SubResource( 582 )
 
-[node name="Cylinder050" parent="." index="582"]
-material/0 = null
-
 [node name="Cylinder050_col" type="StaticBody" parent="Cylinder050" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cylinder050/Cylinder050_col" index="0"]
 shape = SubResource( 583 )
-
-[node name="Cylinder051" parent="." index="583"]
-material/0 = null
 
 [node name="Cylinder051_col" type="StaticBody" parent="Cylinder051" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cylinder051/Cylinder051_col" index="0"]
 shape = SubResource( 584 )
 
-[node name="Cylinder052" parent="." index="584"]
-material/0 = null
-
 [node name="Cylinder052_col" type="StaticBody" parent="Cylinder052" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cylinder052/Cylinder052_col" index="0"]
 shape = SubResource( 585 )
-
-[node name="Cylinder053" parent="." index="585"]
-material/0 = null
 
 [node name="Cylinder053_col" type="StaticBody" parent="Cylinder053" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cylinder053/Cylinder053_col" index="0"]
 shape = SubResource( 586 )
 
-[node name="Cylinder054" parent="." index="586"]
-material/0 = null
-
 [node name="Cylinder054_col" type="StaticBody" parent="Cylinder054" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cylinder054/Cylinder054_col" index="0"]
 shape = SubResource( 587 )
-
-[node name="Cube585" parent="." index="587"]
-material/0 = null
 
 [node name="Cube585_col" type="StaticBody" parent="Cube585" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube585/Cube585_col" index="0"]
 shape = SubResource( 588 )
 
-[node name="Cylinder055" parent="." index="588"]
-material/0 = null
-
 [node name="Cylinder055_col" type="StaticBody" parent="Cylinder055" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cylinder055/Cylinder055_col" index="0"]
 shape = SubResource( 589 )
-
-[node name="Cylinder056" parent="." index="589"]
-material/0 = null
 
 [node name="Cylinder056_col" type="StaticBody" parent="Cylinder056" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cylinder056/Cylinder056_col" index="0"]
 shape = SubResource( 590 )
 
-[node name="Cylinder057" parent="." index="590"]
-material/0 = null
-
 [node name="Cylinder057_col" type="StaticBody" parent="Cylinder057" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cylinder057/Cylinder057_col" index="0"]
 shape = SubResource( 591 )
-
-[node name="Cylinder058" parent="." index="591"]
-material/0 = null
 
 [node name="Cylinder058_col" type="StaticBody" parent="Cylinder058" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cylinder058/Cylinder058_col" index="0"]
 shape = SubResource( 592 )
 
-[node name="Cylinder059" parent="." index="592"]
-material/0 = null
-
 [node name="Cylinder059_col" type="StaticBody" parent="Cylinder059" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cylinder059/Cylinder059_col" index="0"]
 shape = SubResource( 593 )
-
-[node name="Cylinder060" parent="." index="593"]
-material/0 = null
 
 [node name="Cylinder060_col" type="StaticBody" parent="Cylinder060" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cylinder060/Cylinder060_col" index="0"]
 shape = SubResource( 594 )
 
-[node name="Cylinder061" parent="." index="594"]
-material/0 = null
-
 [node name="Cylinder061_col" type="StaticBody" parent="Cylinder061" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cylinder061/Cylinder061_col" index="0"]
 shape = SubResource( 595 )
-
-[node name="Cylinder062" parent="." index="595"]
-material/0 = null
 
 [node name="Cylinder062_col" type="StaticBody" parent="Cylinder062" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cylinder062/Cylinder062_col" index="0"]
 shape = SubResource( 596 )
 
-[node name="Cylinder063" parent="." index="596"]
-material/0 = null
-
 [node name="Cylinder063_col" type="StaticBody" parent="Cylinder063" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cylinder063/Cylinder063_col" index="0"]
 shape = SubResource( 597 )
 
-[node name="Cylinder064" parent="." index="597"]
-material/0 = null
-
 [node name="Cylinder064_col" type="StaticBody" parent="Cylinder064" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cylinder064/Cylinder064_col" index="0"]
 shape = SubResource( 598 )
-
-[node name="Cube591" parent="." index="598"]
-material/0 = null
 
 [node name="Cube591_col" type="StaticBody" parent="Cube591" index="0"]
 

@@ -2,10 +2,14 @@ extends Spatial
 
 var droneObject = preload("res://Drone.tscn");
 var drone:KinematicBody = null;
+var drone2:KinematicBody = null;
+var drone3:KinematicBody = null;
 var objectifObject = preload("Objectif.tscn");
 var objectif:RigidBody = null;
 #var drones:KinematicBody[] = [];
-var coordonnees = Vector3(0,10,0);
+var coordonnees = Vector3(0,30,0);
+var coordonnees2 = Vector3(5,30,0);
+var coordonnees3 = Vector3(10,30,0);
 var objectifCoordonnees = coordonnees;
 var vitesse_rotation:float = PI;
 
@@ -20,6 +24,7 @@ var astar: AStar = AStar.new()
 
 var coo
 
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	randomize();
@@ -27,6 +32,16 @@ func _ready():
 		drone = droneObject.instance();
 		drone.translation = coordonnees;
 		add_child(drone);
+		
+	if drone2 == null:
+		drone2 = droneObject.instance();
+		drone2.translation = coordonnees2;
+		add_child(drone2);
+
+	if drone3 == null:
+		drone3 = droneObject.instance();
+		drone3.translation = coordonnees3;
+		add_child(drone3);
 	
 	if objectif == null:
 #		genereObjectif();
@@ -40,7 +55,7 @@ func getAStarPath(target_position):
 	
 	if astar.are_points_connected(0, 1, false):
 		path = astar.get_point_path(0, 1)
-		print(path)
+#		print(path)
 
 
 func genereObjectif():
@@ -62,8 +77,9 @@ func _input(ev):
 #		objectif.queue_free()
 #		objectif = objectifObject.instance()
 		coo = camera.project_position(ev.position, 10)
+		coo.y = 30
 		current_node = 0
-		print(path)
+#		print(path)
 #		add_child(objectif)
 	
 	if ev is InputEventKey and ev.scancode == KEY_SPACE and ev.is_pressed():
@@ -90,6 +106,8 @@ func _physics_process(delta):
 	
 		# Permet au drone de regarder dans la direction de l'objectif
 		drone.look_at(coo, Vector3.UP)
+		drone2.look_at(coo, Vector3.UP)
+		drone3.look_at(coo, Vector3.UP)
 	#
 	#	# Calcule la vitesse et l'orientation à prendre pour aller vers l'objectif
 	#	velocity = (objectif.translation - drone.translation).normalized() * speed
@@ -101,7 +119,8 @@ func _physics_process(delta):
 	#		velocity = Vector3.ZERO
 		
 		
-	#	update_path(objectif.global_transform.origin)
+#		update_path(objectif.global_transform.origin)
+#		update_path(coo)
 		# Use A* Algo
 		getAStarPath(coo)
 		if current_node < path.size():
@@ -109,7 +128,9 @@ func _physics_process(delta):
 			if direction.length() < 0.5:
 				current_node += 1
 			else:
-				drone.move_and_slide(direction.normalized() * speed) 
+				drone.move_and_slide(direction.normalized() * speed)
+				drone2.move_and_slide(direction.normalized() * speed)
+				drone3.move_and_slide(direction.normalized() * speed)
 		
 
 func update_path(target_position):
