@@ -1,7 +1,8 @@
 extends KinematicBody
 
 
-
+export (Array) var path = []
+export (int) var current_node = 0
 
 # Declare member variables here. Examples:
 # var a = 2

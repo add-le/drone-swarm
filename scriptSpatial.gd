@@ -1,5 +1,6 @@
 extends Spatial
 
+var axeY = 11.069997
 var droneObject = preload("res://Drone/untitled.tscn");
 var drone:KinematicBody = null;
 var drone2:KinematicBody = null;
@@ -7,9 +8,9 @@ var drone3:KinematicBody = null;
 var objectifObject = preload("Objectif.tscn");
 var objectif:RigidBody = null;
 #var drones:KinematicBody[] = [];
-var coordonnees = Vector3(0,30,0);
-var coordonnees2 = Vector3(5,30,0);
-var coordonnees3 = Vector3(10,30,0);
+var coordonnees = Vector3(0,axeY,0);
+var coordonnees2 = Vector3(5,axeY,0);
+var coordonnees3 = Vector3(10,axeY,0);
 var objectifCoordonnees = coordonnees;
 var vitesse_rotation:float = PI;
 
@@ -17,13 +18,10 @@ var vitesse_rotation:float = PI;
 onready var camera: Camera = $Camera
 onready var navigation: Navigation = $Navigation
 
-var path = []
-
 # A* Algorithm
 var astar: AStar = AStar.new()
 
 var coo
-
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -48,27 +46,27 @@ func _ready():
 		pass
 	
 
-func getAStarPath(target_position):
-	astar.add_point(0, drone.global_transform.origin)
-	astar.add_point(1, target_position)
-	astar.connect_points(0, 1, false)
-	
-	if astar.are_points_connected(0, 1, false):
-		path = astar.get_point_path(0, 1)
-#		print(path)
+#func getAStarPath(target_position):
+#	astar.add_point(0, drone.global_transform.origin)
+#	astar.add_point(1, target_position)
+#	astar.connect_points(0, 1, false)
+#
+#	if astar.are_points_connected(0, 1, false):
+#		path = astar.get_point_path(0, 1)
+##		print(path)
 
 
-func genereObjectif():
-	var x = rand_range(-40,40);
-	var z = rand_range(-40,40);
-	objectifCoordonnees = Vector3(x,objectifCoordonnees.y,z);
-	
-#	var target: Position3D = Position3D.new()
-#	objectif = target.instance()
-	objectif = objectifObject.instance();
-	objectif.translation = objectifCoordonnees;
-	# Insertion objectif dans la scène principale
-	add_child(objectif);
+#func genereObjectif():
+#	var x = rand_range(-40,40);
+#	var z = rand_range(-40,40);
+#	objectifCoordonnees = Vector3(x,objectifCoordonnees.y,z);
+#
+##	var target: Position3D = Position3D.new()
+##	objectif = target.instance()
+#	objectif = objectifObject.instance();
+#	objectif.translation = objectifCoordonnees;
+#	# Insertion objectif dans la scène principale
+#	add_child(objectif);
 
 
 func _input(ev):
@@ -77,29 +75,31 @@ func _input(ev):
 #		objectif.queue_free()
 #		objectif = objectifObject.instance()
 		coo = camera.project_position(ev.position, 10)
-		coo.y = 30
-		current_node = 0
+		coo.y = axeY
+		drone.current_node = 0
+		drone2.current_node = 0
+		drone3.current_node = 0
 #		print(path)
 #		add_child(objectif)
 	
-	if ev is InputEventKey and ev.scancode == KEY_SPACE and ev.is_pressed():
-		if objectif != null:
-			objectif.queue_free();
+#	if ev is InputEventKey and ev.scancode == KEY_SPACE and ev.is_pressed():
+#		if objectif != null:
+#			objectif.queue_free();
 #		genereObjectif();
 
-	if ev is InputEventKey and ev.scancode == KEY_S and ev.is_pressed():
-		objectif.translation.z = objectif.translation.z-5;
-	if ev is InputEventKey and ev.scancode == KEY_Z and ev.is_pressed():
-		objectif.translation.z = objectif.translation.z+5;
-	if ev is InputEventKey and ev.scancode == KEY_Q and ev.is_pressed():
-		objectif.translation.x = objectif.translation.x+5;
-	if ev is InputEventKey and ev.scancode == KEY_D and ev.is_pressed():
-		objectif.translation.x = objectif.translation.x-5;
+#	if ev is InputEventKey and ev.scancode == KEY_S and ev.is_pressed():
+#		objectif.translation.z = objectif.translation.z-5;
+#	if ev is InputEventKey and ev.scancode == KEY_Z and ev.is_pressed():
+#		objectif.translation.z = objectif.translation.z+5;
+#	if ev is InputEventKey and ev.scancode == KEY_Q and ev.is_pressed():
+#		objectif.translation.x = objectif.translation.x+5;
+#	if ev is InputEventKey and ev.scancode == KEY_D and ev.is_pressed():
+#		objectif.translation.x = objectif.translation.x-5;
 	#print(objectif.translation);
 
 var velocity: Vector3
 var speed = 5
-var current_node = 0
+#var current_node = 0
 func _physics_process(delta):
 	
 	if coo != null:
@@ -120,21 +120,35 @@ func _physics_process(delta):
 		
 		
 #		update_path(objectif.global_transform.origin)
-#		update_path(coo)
+		update_path(coo)
 		# Use A* Algo
-		getAStarPath(coo)
-		if current_node < path.size():
-			var direction: Vector3 = path[current_node] - drone.global_transform.origin
+#		getAStarPath(coo)
+		if drone.current_node < drone.path.size():
+			var direction: Vector3 = drone.path[drone.current_node] - drone.global_transform.origin
 			if direction.length() < 0.5:
-				current_node += 1
+				drone.current_node += 1
 			else:
 				drone.move_and_slide(direction.normalized() * speed)
+
+		if drone2.current_node < drone2.path.size():
+			var direction: Vector3 = drone2.path[drone2.current_node] - drone2.global_transform.origin
+			if direction.length() < 0.5:
+				drone2.current_node += 1
+			else:
 				drone2.move_and_slide(direction.normalized() * speed)
+				
+		if drone3.current_node < drone3.path.size():
+			var direction: Vector3 = drone3.path[drone3.current_node] - drone3.global_transform.origin
+			if direction.length() < 0.5:
+				drone3.current_node += 1
+			else:
 				drone3.move_and_slide(direction.normalized() * speed)
 		
 
 func update_path(target_position):
-	path = navigation.get_simple_path(drone.global_transform.origin, target_position)
+	drone.path = navigation.get_simple_path(drone.global_transform.origin, target_position)
+	drone2.path = navigation.get_simple_path(drone2.global_transform.origin, target_position)
+	drone3.path = navigation.get_simple_path(drone3.global_transform.origin, target_position)
 #	print(path)
 
 #	drone.translate(Vector3(0,0,0));
