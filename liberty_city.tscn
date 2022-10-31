@@ -1951,6 +1951,9 @@ shape = SubResource( 29 )
 [node name="CollisionShape" type="CollisionShape" parent="Cube031/Cube031_col" index="0"]
 shape = SubResource( 30 )
 
+[node name="Cube033" parent="." index="30"]
+visible = false
+
 [node name="Cube033_col" type="StaticBody" parent="Cube033" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube033/Cube033_col" index="0"]
@@ -2056,6 +2059,9 @@ shape = SubResource( 50 )
 [node name="CollisionShape" type="CollisionShape" parent="Cube052/Cube052_col" index="0"]
 shape = SubResource( 51 )
 
+[node name="Cube053" parent="." index="51"]
+visible = false
+
 [node name="Cube053_col" type="StaticBody" parent="Cube053" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube053/Cube053_col" index="0"]
@@ -2125,6 +2131,9 @@ shape = SubResource( 64 )
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube067/Cube067_col" index="0"]
 shape = SubResource( 65 )
+
+[node name="Cube068" parent="." index="65"]
+visible = false
 
 [node name="Cube068_col" type="StaticBody" parent="Cube068" index="0"]
 
