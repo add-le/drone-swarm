@@ -3,7 +3,7 @@ extends Spatial
 # Constantes
 const NB_DRONE = 10
 const AXE_Y = 30
-const SPEED = 10
+const SPEED = 0.5
 
 # Récupère les différentes nodes
 onready var camera: Camera = $Camera
@@ -15,9 +15,10 @@ var drones = []
 
 # A* Algorithm
 var astar: AStar = AStar.new()
+var random: RandomNumberGenerator = RandomNumberGenerator.new()
 
 # Variables globales
-var coo: Vector3
+var coo = null
 var mode = "attraction"
 
 # Obtient la position des drones quand ils attendent sur un point
@@ -37,16 +38,19 @@ func getDroneIdlePosition():
 
 # Créer n drones
 func generateDrone(n):
-	var positions = getDroneIdlePosition()
 	for i in range(0, n):
 		var obj = droneObject.instance()
-		obj.translation = positions[i]
+		var x = random.randi_range(-100, 100)
+		var z = random.randi_range(-100, 100)
+		obj.translation = Vector3(x, AXE_Y, z)
 		add_child(obj)
 		drones.append(obj)
 
 
 # Fonction init du script
 func _ready():
+	# Reset la seed de l'aléatoire
+	randomize()
 	# Place les drones sur la scene
 	generateDrone(NB_DRONE)
 
@@ -82,7 +86,6 @@ func _input(ev: InputEvent):
 			drones[i].current_node = 0
 
 
-
 # Fonction actualisation de la scene et de sa physique
 func _physics_process(delta):
 	if coo != null:
@@ -98,5 +101,9 @@ func _physics_process(delta):
 				if direction.length() < 0.5:
 					drones[i].current_node += 1
 				else:
-					drones[i].move_and_slide(direction.normalized() * SPEED)
+					# Permet de voler par dessus les autres drones, si ils sont dans le chemin
+					var collisions = drones[i].move_and_collide(direction * delta * SPEED)
+					if collisions:
+						direction.y = direction.y + 10
+						drones[i].move_and_collide(direction * delta * SPEED)
 
