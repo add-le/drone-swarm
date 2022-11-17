@@ -39,7 +39,6 @@ environment = SubResource( 10 )
 [node name="Ground" type="MeshInstance" parent="."]
 transform = Transform( 10000, 0, 0, 0, 1, 0, 0, 0, 10000, 0, 0, 0 )
 mesh = SubResource( 15 )
-material/0 = null
 
 [node name="liberty_city" parent="." instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.224, 0, 67.4295 )
@@ -53,3 +52,8 @@ margin_right = 40.0
 margin_bottom = 14.0
 custom_colors/font_color = Color( 1, 0, 0, 1 )
 text = "Mode : attraction"
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 10.0
+
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

@@ -1,9 +1,9 @@
 extends Spatial
 
 # Constantes
-const NB_DRONE = 10
-const AXE_Y = 30
-const SPEED = 0.5
+const NB_DRONE = 20
+const AXE_Y = 20
+const SPEED = 0.7
 
 # Récupère les différentes nodes
 onready var camera: Camera = $Camera
@@ -19,13 +19,13 @@ var random: RandomNumberGenerator = RandomNumberGenerator.new()
 
 # Variables globales
 var coo = null
-var mode = "attraction"
+var mode = "formation"
 
 # Obtient la position des drones quand ils attendent sur un point
 func getDroneIdlePosition():
 	var x0 = coo.x
 	var y0 = coo.z
-	var r = 10
+	var r = 30
 	
 	var positions = []
 	
@@ -46,14 +46,21 @@ func generateDrone(n):
 		add_child(obj)
 		drones.append(obj)
 
+var _timer = null
 
 # Fonction init du script
 func _ready():
 	# Reset la seed de l'aléatoire
 	randomize()
+	lblmode.text = "Mode : " + mode
 	# Place les drones sur la scene
 	generateDrone(NB_DRONE)
 
+func _on_Timer_timeout():
+	if(mode=="attraction"):
+		mode = "formation"
+		lblmode.text = "Mode : " + mode
+	goRandomLocation()
 
 # Génère le chemin entre le drone et l'objectif avec l'algorithme AStar
 func getAStarPath():
@@ -72,22 +79,56 @@ func _input(ev: InputEvent):
 	# Changer le mode des drones
 	if ev is InputEventKey and ev.scancode == KEY_A and ev.is_pressed():
 		if mode == "attraction":
-			mode = "repulsion"
-		elif mode == "repulsion":
+			mode = "formation"
+		elif mode == "formation":
 			mode = "attraction"
+		lblmode.text = "Mode : " + mode
+	
+	if ev is InputEventKey and ev.scancode == KEY_SPACE and ev.is_pressed():
+		mode = "formation"
 		lblmode.text = "Mode : " + mode
 	
 	# Place l'objectif à l'endroit du clic
 	if ev is InputEventMouseButton and ev.button_index == BUTTON_LEFT and ev.is_pressed():
+		
+		mode = "attraction"
+		lblmode.text = "Mode : " + mode
 		# Récupère les coordonnées du clic de la souris
-		coo = camera.project_position(ev.position, 10)
+		self.get_node("Timer").start(10)
+		print(self.get_node("Timer"))
+		var space = get_world().direct_space_state
+		var mousePos = ev.position
+		var rayOrigin = camera.project_ray_origin(mousePos)
+		var rayEnd = rayOrigin + camera.project_ray_normal(mousePos) * 2000
+		var rayArray = space.intersect_ray(rayOrigin, rayEnd)
+		if rayArray.has("position"):
+			coo = rayArray["position"]
+		else:
+			coo = Vector3.ZERO
 		coo.y = AXE_Y
 		for i in range(0, NB_DRONE):
 			drones[i].current_node = 0
 
-
+var direction: Vector3
 # Fonction actualisation de la scene et de sa physique
+
+var accum = 0
+
+func goRandomLocation():
+	# Mode formation
+	if mode == "formation":
+		var x = random.randi_range(-100, 100)
+		var z = random.randi_range(-100, 100)
+		coo = Vector3(x, AXE_Y, z)
+		
+		for i in range(0, NB_DRONE):
+			drones[i].current_node = 0
+
+
 func _physics_process(delta):
+	accum += delta
+
+			
 	if coo != null:
 		# Permet au drone de regarder dans la direction de l'objectif
 		for i in range(0, NB_DRONE):
@@ -97,13 +138,21 @@ func _physics_process(delta):
 		getAStarPath()
 		for i in range(0, NB_DRONE):
 			if drones[i].current_node < drones[i].path.size():
-				var direction: Vector3 = drones[i].path[drones[i].current_node] - drones[i].global_transform.origin
+				direction = drones[i].path[drones[i].current_node] - drones[i].global_transform.origin
 				if direction.length() < 0.5:
 					drones[i].current_node += 1
 				else:
 					# Permet de voler par dessus les autres drones, si ils sont dans le chemin
 					var collisions = drones[i].move_and_collide(direction * delta * SPEED)
 					if collisions:
-						direction.y = direction.y + 10
+						direction.y = direction.y + 50
 						drones[i].move_and_collide(direction * delta * SPEED)
 
+# Create timer
+#	_timer = Timer.new()
+#	add_child(_timer)
+#
+#	_timer.connect("timeout", self, "_on_Timer_timeout")
+#	_timer.set_wait_time(5.0)
+#	_timer.set_one_shot(false) # Make sure it loops
+#	_timer.start()
